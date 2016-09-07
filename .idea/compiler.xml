@@ -25,8 +25,5 @@
         <module name="DrDiff" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="DrDiff" target="1.6" />
-    </bytecodeTargetLevel>
   </component>
 </project>
