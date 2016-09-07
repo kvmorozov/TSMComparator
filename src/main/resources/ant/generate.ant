@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<project name="generate" basedir=".">
+
+    <dirname property="project.root"        file="${basedir}/../../.."/>
+
+    <!-- Генерация JAXB-классов по TSMSchema.xsd -->
+    <target name="generate-tsm-report-classes">
+        <exec executable="${java.home}/../bin/xjc.exe">
+            <arg value="-extension"/>
+            <arg value="-enableIntrospection"/>
+            <arg value="-d"/>
+            <arg value="${project.root}/src/main/java"/>
+            <arg value="-p"/>
+            <arg value="ru.sbt.etsm.drdiff.generated"/>
+            <arg value="${project.root}/src/main/resources/xml/TSMSchema.xsd"/>
+            <arg value="-no-header"/>
+            <arg value="-b"/>
+            <arg value="${project.root}/src/main/resources/xml/common.xjb.xml"/>
+        </exec>
+    </target>
+
+</project>
