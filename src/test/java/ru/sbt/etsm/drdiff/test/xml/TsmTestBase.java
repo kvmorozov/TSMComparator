@@ -1,12 +1,10 @@
 package ru.sbt.etsm.drdiff.test.xml;
 
-import com.google.common.io.Resources;
 import ru.sbt.etsm.drdiff.generated.DesignData;
 import ru.sbt.etsm.drdiff.generated.DesignReport;
 import ru.sbt.etsm.drdiff.utils.jaxb.JaxbHelper;
 
 import java.io.IOException;
-import java.nio.charset.Charset;
 
 /**
  * Created by sbt-morozov-kv on 09.08.2016.

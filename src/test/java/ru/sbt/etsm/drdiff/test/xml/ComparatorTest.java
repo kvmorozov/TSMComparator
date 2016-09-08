@@ -3,8 +3,8 @@ package ru.sbt.etsm.drdiff.test.xml;
 import org.junit.Test;
 import org.xml.sax.SAXException;
 import ru.sbt.etsm.drdiff.comparator.TsmComparator;
-import ru.sbt.etsm.drdiff.comparator.logger.model.ChangeTree;
 import ru.sbt.etsm.drdiff.comparator.logger.file.TsmFileLogger;
+import ru.sbt.etsm.drdiff.comparator.logger.model.ChangeTree;
 import ru.sbt.etsm.drdiff.generated.DesignReport;
 import ru.sbt.etsm.drdiff.utils.jaxb.JaxbHelper;
 
