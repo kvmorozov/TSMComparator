@@ -65,7 +65,7 @@ public class Screens {
      */
     public List<Screen> getScreens() {
         if (screens == null) {
-            screens = new ArrayList<Screen>();
+            screens = new ArrayList<>();
         }
         return this.screens;
     }

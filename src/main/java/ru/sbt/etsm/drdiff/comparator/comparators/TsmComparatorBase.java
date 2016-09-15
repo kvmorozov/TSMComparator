@@ -23,10 +23,10 @@ public abstract class TsmComparatorBase {
     protected Object oldObject, newObject;
     protected Descriptor descriptor;
 
-    private static final Set<String> NAME_ID_SET = new HashSet<>(Arrays.asList("name", "id"));
-    private static final Set<String> CHARACTERISTIC_SET = new HashSet<>(Arrays.asList("appearance", "options", "tabOrder", "title", "id", "caption"));
-    private static final Set<String> RULE_SET = new HashSet<>(Arrays.asList("ruleDescription", "id", "name", "comment"));
-    private static final Set<String> COND_STAT_SET = new HashSet<>(Arrays.asList("expressionDescription", "conditionDescription", "comment"));
+    public static final Set<String> NAME_ID_SET = new HashSet<>(Arrays.asList("name", "id"));
+    public static final Set<String> CHARACTERISTIC_SET = new HashSet<>(Arrays.asList("appearance", "options", "tabOrder", "title", "id", "caption"));
+    public static final Set<String> RULE_SET = new HashSet<>(Arrays.asList("ruleDescription", "id", "name", "comment"));
+    public static final Set<String> COND_STAT_SET = new HashSet<>(Arrays.asList("expressionDescription", "conditionDescription", "comment"));
 
     protected void init(Object oldObject, Object newObject) {
         this.oldObject = oldObject;
@@ -49,9 +49,9 @@ public abstract class TsmComparatorBase {
         else if (oldObject instanceof Collection)
             return CollectionComparator.getCollectionComparator(oldObject, newObject);
         else if (oldObject instanceof Rule)
-            comparator = new RuleComparator(RULE_SET);
+            comparator = new RuleComparator();
         else if (oldObject instanceof Condition || oldObject instanceof VisibleCondition || oldObject instanceof ConditionToProcess)
-            comparator = new ConditionComparator(RULE_SET);
+            comparator = new ConditionComparator();
         else if (oldObject instanceof QueryScreen)
             comparator = new QueryScreenComparator();
         else if (oldObject instanceof DesignReport)
@@ -59,11 +59,11 @@ public abstract class TsmComparatorBase {
         else if (oldObject instanceof Condition)
             comparator = new SkipFieldsComparator(NAME_ID_SET);
         else if (oldObject instanceof ConditionStatement)
-            comparator = new ConditionStatementComparator(COND_STAT_SET);
+            comparator = new ConditionStatementComparator();
         else if (oldObject instanceof Occurence)
             comparator = new OccurenceComparator();
         else if (oldObject instanceof Characteristic)
-            comparator = new CharacteristicComparator(CHARACTERISTIC_SET);
+            comparator = new CharacteristicComparator();
         else if (oldObject instanceof Option)
             comparator = new SimpleObjectComparator();
         else

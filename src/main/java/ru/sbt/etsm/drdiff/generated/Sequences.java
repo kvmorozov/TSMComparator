@@ -65,7 +65,7 @@ public class Sequences {
      */
     public List<Sequence> getSequences() {
         if (sequences == null) {
-            sequences = new ArrayList<Sequence>();
+            sequences = new ArrayList<>();
         }
         return this.sequences;
     }

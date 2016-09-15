@@ -2,156 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="219e664d-7d70-4000-a04a-1be4e4875e33" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/application/ComparatorController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/application/MainApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/TsmComparator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/AddRemoveComparator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/CharacteristicComparator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/ConditionComparator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/ConditionStatementComparator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/DefaultObjectComparator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/MainComparator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/NotComparableComparator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/OccurenceComparator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/PrimitiveComparator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/QueryScreenComparator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/RuleComparator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/SimpleObjectComparator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/SkipFieldsComparator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/TsmComparatorBase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/collections/CharacteristicCollectionComparator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/collections/CollectionComparator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/collections/HeterogeneCollectionComparator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/collections/MenuBarCollectionComparator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/collections/OccurencesCollectionComparator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/collections/OrderedCollectionComparator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/context/ReportContext.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/ILogger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/db/ChangeEntry.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/db/ChangeEntryRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/db/LocalH2Config.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/db/TsmDbLogger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/file/DeletingFileInputStream.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/file/ExcelGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/file/TemporaryFileDownloadResource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/file/TsmFileLogger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/model/ChangeItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/model/ChangeTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/model/ChangeVector.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/model/Descriptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/matchers/CharacteristicMatcher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/matchers/ConvertingMatcher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/matchers/DefaultObjectMatcher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/matchers/ElementMatcher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/matchers/MappingSMMatcher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/matchers/OccurenceMatcher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/matchers/SimpleObjectMatcher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/matchers/TableRelationMatcher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/matchers/TsmMatcherBase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/matchers/TypeIdMatcher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/serializers/CharacteristicSerializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/serializers/DefaultSerializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/serializers/IdTypeNameSerializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/serializers/OccurenceSerializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/serializers/TsmSerializerBase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Action.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/ActionList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Actions.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Appearance.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Attrib.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/BrowseSequence.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/BuilderLayout.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Calculation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Caption.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Characteristic.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/ClientSystem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/ColumnCharacteristic.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Condition.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/ConditionStatement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/ConditionToProcess.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/ConditionalExpression.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Criteria.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/DefaultOutputMap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/DesignData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/DesignReport.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Distribution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Element.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/FieldFont.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/FieldsToUpdate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Font.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Fonts.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/GeneratedCharacteristic.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/GeneratedCharacteristics.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Generation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/GenerationList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Generations.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/HistoricHiddenCharacteristic.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/HistoricHiddenCharacteristics.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/HistoricLeadingBlankCharacteristics.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Hook.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/HookBeforeQuery.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/InputMap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/JoinedCharacteristics.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Label.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/LabelFont.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/LangList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/LangMap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/LogicalDataSource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Map.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/MapOutputList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Mapping.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/MappingList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/MappingSM.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Mappings.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Maps.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Matrix.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/MenuBar.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/MenuItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Menus.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Message.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/ObjectFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Occurence.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/OnEnter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/OnExit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Option.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Order.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/OrderList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/OutputOnErrorMap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Picture.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/QueryScreen.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/RowCharacteristic.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Rule.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Rules.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Screen.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/ScreenTemplate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/ScreenTemplates.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Screens.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/SelectionCharacteristic.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Sequence.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Sequences.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/SetupData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Status.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/StatusFlow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Statuses.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/StoreProcedures.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/StoredProcedure.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Table.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/TableList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/TableRelation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/TableRelationList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/VisibleCondition.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/jaxb/JaxbHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/reflection/ReflectionUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/xstream/TsmMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/xstream/TsmReflectionProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/xstream/XmlConverter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/xstream/converters/AllowDuplicatesConverter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/xstream/converters/EnumConverter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/xstream/converters/SoapArrayConverter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/application/ComparatorController.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/application/ComparatorController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/CharacteristicComparator.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/CharacteristicComparator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/ConditionComparator.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/ConditionComparator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/ConditionStatementComparator.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/ConditionStatementComparator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/RuleComparator.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/RuleComparator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/TsmComparatorBase.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/TsmComparatorBase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/collections/CharacteristicCollectionComparator.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/collections/CharacteristicCollectionComparator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/collections/CollectionComparator.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/collections/CollectionComparator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/collections/OccurencesCollectionComparator.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/collections/OccurencesCollectionComparator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/context/ReportContext.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/context/ReportContext.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/ILogger.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/ILogger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/db/ChangeEntryRepository.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/db/ChangeEntryRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/file/TsmFileLogger.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/file/TsmFileLogger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/model/ChangeItem.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/model/ChangeItem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/model/ChangeTree.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/model/ChangeTree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/model/ChangeVector.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/model/ChangeVector.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/serializers/CharacteristicSerializer.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/serializers/CharacteristicSerializer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/serializers/IdTypeNameSerializer.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/serializers/IdTypeNameSerializer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/serializers/OccurenceSerializer.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/serializers/OccurenceSerializer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/ActionList.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/ActionList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Actions.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Actions.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/BuilderLayout.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/BuilderLayout.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Characteristic.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Characteristic.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/ClientSystem.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/ClientSystem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/ConditionalExpression.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/ConditionalExpression.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Criteria.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Criteria.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/DesignData.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/DesignData.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Fonts.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Fonts.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/GeneratedCharacteristics.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/GeneratedCharacteristics.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/GenerationList.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/GenerationList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Generations.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Generations.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/HistoricHiddenCharacteristics.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/HistoricHiddenCharacteristics.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/LogicalDataSource.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/LogicalDataSource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Map.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Map.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Mapping.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Mapping.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/MappingList.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/MappingList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Maps.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Maps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/MenuBar.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/MenuBar.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/MenuItem.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/MenuItem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Menus.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Menus.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Occurence.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Occurence.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/OrderList.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/OrderList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Rules.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Rules.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Screen.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Screen.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/ScreenTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/ScreenTemplate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/ScreenTemplates.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/ScreenTemplates.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Screens.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Screens.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Sequence.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Sequence.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Sequences.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Sequences.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Status.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Status.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Statuses.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Statuses.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/StoreProcedures.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/StoreProcedures.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/StoredProcedure.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/StoredProcedure.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Table.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/Table.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/TableList.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/TableList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/TableRelationList.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/TableRelationList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/jaxb/JaxbHelper.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/jaxb/JaxbHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/xstream/TsmReflectionProvider.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/xstream/TsmReflectionProvider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/xstream/converters/AllowDuplicatesConverter.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/xstream/converters/AllowDuplicatesConverter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/xstream/converters/EnumConverter.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/xstream/converters/EnumConverter.java" />
     </list>
     <ignored path="DrDiff.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -175,61 +86,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CollectionComparator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/collections/CollectionComparator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="24" column="26" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vcs.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CharacteristicCollectionComparator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/collections/CharacteristicCollectionComparator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+            <state relative-caret-position="286">
+              <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MenuBarCollectionComparator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/collections/MenuBarCollectionComparator.java">
+      <file leaf-file-name="TsmReflectionProvider.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/xstream/TsmReflectionProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="23" column="63" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MenuBar.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/MenuBar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+            <state relative-caret-position="136">
+              <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -238,28 +109,78 @@
       <file leaf-file-name="OccurencesCollectionComparator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/collections/OccurencesCollectionComparator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+            <state relative-caret-position="303">
+              <caret line="64" column="39" selection-start-line="64" selection-start-column="39" selection-end-line="64" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrderedCollectionComparator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/collections/OrderedCollectionComparator.java">
+      <file leaf-file-name="ComparatorController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/application/ComparatorController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="169">
+              <caret line="69" column="88" selection-start-line="69" selection-start-column="88" selection-end-line="69" selection-end-column="88" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HeterogeneCollectionComparator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/collections/HeterogeneCollectionComparator.java">
+      <file leaf-file-name="AllowDuplicatesConverter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/xstream/converters/AllowDuplicatesConverter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="169">
+              <caret line="346" column="21" selection-start-line="346" selection-start-column="21" selection-end-line="346" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChangeVector.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/model/ChangeVector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="89" column="19" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TsmFileLogger.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/file/TsmFileLogger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChangeItem.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/model/ChangeItem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="99" column="27" selection-start-line="99" selection-start-column="27" selection-end-line="99" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TsmTestBase.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/sbt/etsm/drdiff/test/xml/TsmTestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChangeTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/model/ChangeTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -278,10 +199,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/AddRemoveComparator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/DefaultObjectComparator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/MainComparator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/NotComparableComparator.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/OccurenceComparator.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/PrimitiveComparator.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/SimpleObjectComparator.java" />
@@ -291,44 +208,48 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/matchers/DefaultObjectMatcher.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/collections/ConditionStatementCollectionComparator.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/collections/OrderedCollectionComparator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/ConditionStatementComparator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/TsmComparatorBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/matchers/ConvertingMatcher.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/context/ReportContext.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/matchers/TsmMatcherBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/TsmComparator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/collections/OccurencesCollectionComparator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/xstream/TsmReflectionProvider.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/xstream/converters/EnumConverter.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/xstream/converters/SoapArrayConverter.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/jaxb/JaxbHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/sbt/etsm/drdiff/test/xml/TsmTestBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/TsmLogger.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/model/Descriptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/TsmDbLogger.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/model/ChangeItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/TsmFileLogger.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/model/ChangeEntry.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/file/TsmFileLogger.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/db/LocalH2Config.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/application/MainApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/ILogger.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/model/ChangeTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/db/TsmDbLogger.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/db/ChangeEntry.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/model/ChangeVector.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/sbt/etsm/drdiff/test/xml/JaxbUnmarshallTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/db/ChangeEntryRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/file/DeletingFileInputStream.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/file/TemporaryFileDownloadResource.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/application/ComparatorController.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/file/ExcelGenerator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/collections/CharacteristicCollectionComparator.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/collections/CollectionComparator.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/collections/MenuBarCollectionComparator.java" />
         <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/xstream/converters/EnumConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/db/ChangeEntryRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/ILogger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/ConditionComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/TsmComparatorBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/CharacteristicComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/ConditionStatementComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/RuleComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/xstream/TsmReflectionProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/application/ComparatorController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/model/ChangeTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/collections/CharacteristicCollectionComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/collections/OccurencesCollectionComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/xstream/converters/AllowDuplicatesConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/model/ChangeVector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/file/TsmFileLogger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/model/ChangeItem.java" />
       </list>
     </option>
   </component>
@@ -952,14 +873,7 @@
       <workItem from="1473927196738" duration="20000" />
       <workItem from="1473927241226" duration="77000" />
       <workItem from="1473940462493" duration="880000" />
-      <workItem from="1473941580281" duration="248000" />
-    </task>
-    <task id="LOCAL-00018" summary="fixes">
-      <created>1470916416797</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1470916416797</updated>
+      <workItem from="1473941580281" duration="1267000" />
     </task>
     <task id="LOCAL-00019" summary="references introduced">
       <created>1470924917933</created>
@@ -1297,47 +1211,54 @@
       <option name="project" value="LOCAL" />
       <updated>1473925200902</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="sources added">
+      <created>1473941833512</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1473941833512</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="298204000" />
+    <option name="totallyTimeSpent" value="299223000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28463203" sideWeight="0.49093816" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29904053" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26054054" sideWeight="0.4936034" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29211086" sideWeight="0.49487555" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10554371" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41125542" sideWeight="0.56929636" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39935064" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25974026" sideWeight="0.4936034" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28463203" sideWeight="0.5090618" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29211086" sideWeight="0.49487555" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29211086" sideWeight="0.50512445" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41125542" sideWeight="0.56929636" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28463203" sideWeight="0.5090618" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.4978678" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1474,750 +1395,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/vaadin/vaadin-server/7.6.6/vaadin-server-7.6.6-sources.jar!/com/vaadin/server/Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="1150" column="16" selection-start-line="1150" selection-start-column="16" selection-end-line="1150" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/db/ChangeEntryRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml/3.9/poi-ooxml-3.9-sources.jar!/org/apache/poi/POIXMLDocument.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="178" column="0" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml/3.9/poi-ooxml-3.9-sources.jar!/org/apache/poi/openxml4j/opc/OPCPackage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="1413" column="0" selection-start-line="1413" selection-start-column="0" selection-end-line="1413" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.15-beta2/poi-3.15-beta2-sources.jar!/org/apache/poi/util/NullLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/vaadin/vaadin-server/7.6.6/vaadin-server-7.6.6-sources.jar!/com/vaadin/server/communication/UidlRequestHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.15-beta2/poi-3.15-beta2-sources.jar!/org/apache/poi/util/POILogFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="81" column="84" selection-start-line="81" selection-start-column="55" selection-end-line="81" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.15-beta2/poi-3.15-beta2-sources.jar!/org/apache/poi/util/SystemOutLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="31" column="28" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/file/DeletingFileInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/file/TemporaryFileDownloadResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MAVEN/ru.sbt.etsm:DrDiff:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>ru.sbt.etsm:DrDiff:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="0.0" y="1727.8577731092444">ru.sbt.etsm:DrDiff:1.0-SNAPSHOT</node>
-            <node x="203.5" y="0.0">junit:junit:jar:4.12</node>
-            <node x="450.0" y="0.0">junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3</node>
-            <node x="199.5" y="70.0">com.google.guava:guava:jar:19.0</node>
-            <node x="195.0" y="140.0">com.thoughtworks.xstream:xstream:jar:1.4.9</node>
-            <node x="469.0" y="105.0">com.thoughtworks.xstream:xstream:jar:1.4.9/xmlpull:xmlpull:jar:1.1.3.1</node>
-            <node x="463.0" y="175.0">com.thoughtworks.xstream:xstream:jar:1.4.9/xpp3:xpp3_min:jar:1.1.4c</node>
-            <node x="188.0" y="280.0">org.reflections:reflections:jar:0.9.10</node>
-            <node x="467.0" y="245.0">org.reflections:reflections:jar:0.9.10/org.javassist:javassist:jar:3.20.0-GA</node>
-            <node x="457.0" y="315.0">org.reflections:reflections:jar:0.9.10/com.google.code.findbugs:annotations:jar:2.0.1</node>
-            <node x="181.0" y="350.0">commons-io:commons-io:jar:2.5</node>
-            <node x="169.5" y="420.0">com.fasterxml.jackson.core:jackson-databind:jar:2.8.2</node>
-            <node x="434.5" y="385.0">com.fasterxml.jackson.core:jackson-databind:jar:2.8.2/com.fasterxml.jackson.core:jackson-annotations:jar:2.8.1</node>
-            <node x="454.5" y="455.0">com.fasterxml.jackson.core:jackson-databind:jar:2.8.2/com.fasterxml.jackson.core:jackson-core:jar:2.8.1</node>
-            <node x="151.5" y="852.8577731092444">org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE</node>
-            <node x="438.0" y="525.0">org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.0.RELEASE</node>
-            <node x="700.0" y="491.83657796452053">org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.0.RELEASE</node>
-            <node x="993.5" y="432.85777310924436">org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.0.RELEASE/ch.qos.logback:logback-classic:jar:1.1.7</node>
-            <node x="1215.5" y="432.85777310924436">org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.0.RELEASE/ch.qos.logback:logback-classic:jar:1.1.7/ch.qos.logback:logback-core:jar:1.1.7</node>
-            <node x="1006.5" y="502.85777310924436">org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.0.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.21</node>
-            <node x="994.0" y="614.6996732026157">org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.0.RELEASE/org.slf4j:log4j-over-slf4j:jar:1.7.21</node>
-            <node x="745.5" y="561.8365779645205">org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.0.RELEASE/org.yaml:snakeyaml:jar:1.17</node>
-            <node x="416.5" y="707.136904761905">org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.0.RELEASE</node>
-            <node x="719.5" y="631.8365779645205">org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.0.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.4</node>
-            <node x="726.5" y="701.8365779645205">org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.0.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.4</node>
-            <node x="703.0" y="771.8365779645205">org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.0.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.4</node>
-            <node x="438.0" y="841.8365779645205">org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE/org.hibernate:hibernate-validator:jar:5.2.4.Final</node>
-            <node x="737.0" y="841.8365779645205">org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE/org.hibernate:hibernate-validator:jar:5.2.4.Final/javax.validation:validation-api:jar:1.1.0.Final</node>
-            <node x="458.5" y="911.8365779645205">org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE/org.springframework:spring-web:jar:4.3.2.RELEASE</node>
-            <node x="447.0" y="981.8365779645205">org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE/org.springframework:spring-webmvc:jar:4.3.2.RELEASE</node>
-            <node x="727.0" y="981.8365779645205">org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE/org.springframework:spring-webmvc:jar:4.3.2.RELEASE/org.springframework:spring-expression:jar:4.3.2.RELEASE</node>
-            <node x="153.0" y="1342.8577731092444">org.springframework.boot:spring-boot-starter-test:jar:1.4.0.RELEASE</node>
-            <node x="445.0" y="1051.8365779645205">org.springframework.boot:spring-boot-starter-test:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-test:jar:1.4.0.RELEASE</node>
-            <node x="405.0" y="1121.8365779645205">org.springframework.boot:spring-boot-starter-test:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:1.4.0.RELEASE</node>
-            <node x="463.0" y="1191.8365779645205">org.springframework.boot:spring-boot-starter-test:jar:1.4.0.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0</node>
-            <node x="745.0" y="1191.8365779645205">org.springframework.boot:spring-boot-starter-test:jar:1.4.0.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1</node>
-            <node x="991.5" y="1191.8365779645205">org.springframework.boot:spring-boot-starter-test:jar:1.4.0.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1/net.minidev:accessors-smart:jar:1.1</node>
-            <node x="1239.5" y="1191.8365779645205">org.springframework.boot:spring-boot-starter-test:jar:1.4.0.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1/net.minidev:accessors-smart:jar:1.1/org.ow2.asm:asm:jar:5.0.3</node>
-            <node x="458.0" y="1261.8365779645205">org.springframework.boot:spring-boot-starter-test:jar:1.4.0.RELEASE/org.assertj:assertj-core:jar:2.5.0</node>
-            <node x="452.5" y="1331.8365779645205">org.springframework.boot:spring-boot-starter-test:jar:1.4.0.RELEASE/org.mockito:mockito-core:jar:1.10.19</node>
-            <node x="749.0" y="1331.8365779645205">org.springframework.boot:spring-boot-starter-test:jar:1.4.0.RELEASE/org.mockito:mockito-core:jar:1.10.19/org.objenesis:objenesis:jar:2.1</node>
-            <node x="445.0" y="1401.8365779645205">org.springframework.boot:spring-boot-starter-test:jar:1.4.0.RELEASE/org.hamcrest:hamcrest-library:jar:1.3</node>
-            <node x="462.5" y="1471.8365779645205">org.springframework.boot:spring-boot-starter-test:jar:1.4.0.RELEASE/org.skyscreamer:jsonassert:jar:1.3.0</node>
-            <node x="762.5" y="1471.8365779645205">org.springframework.boot:spring-boot-starter-test:jar:1.4.0.RELEASE/org.skyscreamer:jsonassert:jar:1.3.0/org.json:json:jar:20140107</node>
-            <node x="458.0" y="1541.8365779645205">org.springframework.boot:spring-boot-starter-test:jar:1.4.0.RELEASE/org.springframework:spring-core:jar:4.3.2.RELEASE</node>
-            <node x="460.0" y="1611.8365779645205">org.springframework.boot:spring-boot-starter-test:jar:1.4.0.RELEASE/org.springframework:spring-test:jar:4.3.2.RELEASE</node>
-            <node x="159.0" y="1715.0">org.springframework.boot:spring-boot-devtools:jar:1.4.0.RELEASE</node>
-            <node x="457.0" y="1681.8365779645205">org.springframework.boot:spring-boot-devtools:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot:jar:1.4.0.RELEASE</node>
-            <node x="417.0" y="1751.8365779645205">org.springframework.boot:spring-boot-devtools:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:1.4.0.RELEASE</node>
-            <node x="145.0" y="1897.136904761905">com.vaadin:vaadin-spring-boot-starter:jar:1.0.1</node>
-            <node x="437.0" y="1821.8365779645205">com.vaadin:vaadin-spring-boot-starter:jar:1.0.1/com.vaadin:vaadin-spring-boot:jar:1.0.1</node>
-            <node x="737.0" y="1821.8365779645205">com.vaadin:vaadin-spring-boot-starter:jar:1.0.1/com.vaadin:vaadin-spring-boot:jar:1.0.1/com.vaadin:vaadin-spring:jar:1.0.1</node>
-            <node x="449.0" y="1891.8365779645205">com.vaadin:vaadin-spring-boot-starter:jar:1.0.1/com.vaadin:vaadin-themes:jar:7.4.4</node>
-            <node x="426.5" y="1961.8365779645205">com.vaadin:vaadin-spring-boot-starter:jar:1.0.1/com.vaadin:vaadin-client-compiled:jar:7.4.4</node>
-            <node x="209.0" y="1967.136904761905">com.h2database:h2:jar:1.4.192</node>
-            <node x="188.5" y="2048.9788048552764">javax:javaee-api:jar:7.0</node>
-            <node x="462.5" y="2048.9788048552764">javax:javaee-api:jar:7.0/com.sun.mail:javax.mail:jar:1.5.5</node>
-            <node x="747.5" y="2048.9788048552764">javax:javaee-api:jar:7.0/com.sun.mail:javax.mail:jar:1.5.5/javax.activation:activation:jar:1.1</node>
-            <node x="174.5" y="2392.8577731092446">org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE</node>
-            <node x="428.5" y="2118.9788048552764">org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework.data:spring-data-commons:jar:1.12.2.RELEASE</node>
-            <node x="458.5" y="2188.9788048552764">org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework:spring-orm:jar:4.3.2.RELEASE</node>
-            <node x="743.0" y="2188.9788048552764">org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework:spring-orm:jar:4.3.2.RELEASE/org.springframework:spring-jdbc:jar:4.3.2.RELEASE</node>
-            <node x="450.0" y="2258.9788048552764">org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework:spring-context:jar:4.3.2.RELEASE</node>
-            <node x="459.5" y="2328.9788048552764">org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework:spring-aop:jar:4.3.2.RELEASE</node>
-            <node x="465.0" y="2398.9788048552764">org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework:spring-tx:jar:4.3.2.RELEASE</node>
-            <node x="454.0" y="2468.9788048552764">org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework:spring-beans:jar:4.3.2.RELEASE</node>
-            <node x="466.0" y="2538.9788048552764">org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.aspectj:aspectjrt:jar:1.8.9</node>
-            <node x="467.5" y="2608.9788048552764">org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.slf4j:slf4j-api:jar:1.7.21</node>
-            <node x="455.5" y="2678.9788048552764">org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.21</node>
-            <node x="176.5" y="3022.8577731092446">org.hibernate:hibernate-core:jar:5.2.2.Final</node>
-            <node x="452.0" y="2748.9788048552764">org.hibernate:hibernate-core:jar:5.2.2.Final/org.jboss.logging:jboss-logging:jar:3.3.0.Final</node>
-            <node x="432.5" y="2818.9788048552764">org.hibernate:hibernate-core:jar:5.2.2.Final/org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final</node>
-            <node x="476.5" y="2888.9788048552764">org.hibernate:hibernate-core:jar:5.2.2.Final/antlr:antlr:jar:2.7.7</node>
-            <node x="429.0" y="2958.9788048552764">org.hibernate:hibernate-core:jar:5.2.2.Final/org.apache.geronimo.specs:geronimo-jta_1.1_spec:jar:1.1.1</node>
-            <node x="471.5" y="3028.9788048552764">org.hibernate:hibernate-core:jar:5.2.2.Final/org.jboss:jandex:jar:2.0.0.Final</node>
-            <node x="462.5" y="3098.9788048552764">org.hibernate:hibernate-core:jar:5.2.2.Final/com.fasterxml:classmate:jar:1.3.1</node>
-            <node x="471.5" y="3168.9788048552764">org.hibernate:hibernate-core:jar:5.2.2.Final/dom4j:dom4j:jar:1.6.1</node>
-            <node x="400.0" y="3238.9788048552764">org.hibernate:hibernate-core:jar:5.2.2.Final/org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final</node>
-            <node x="470.0" y="3308.9788048552764">org.hibernate:hibernate-core:jar:5.2.2.Final/javax.enterprise:cdi-api:jar:1.1</node>
-            <node x="758.5" y="3129.636904761905">org.hibernate:hibernate-core:jar:5.2.2.Final/javax.enterprise:cdi-api:jar:1.1/javax.el:el-api:jar:2.2</node>
-            <node x="691.0" y="3267.8577731092446">org.hibernate:hibernate-core:jar:5.2.2.Final/javax.enterprise:cdi-api:jar:1.1/org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.1_spec:jar:1.0.0.Beta1</node>
-            <node x="748.0" y="3337.8577731092446">org.hibernate:hibernate-core:jar:5.2.2.Final/javax.enterprise:cdi-api:jar:1.1/javax.annotation:jsr250-api:jar:1.0</node>
-            <node x="744.5" y="3407.8577731092446">org.hibernate:hibernate-core:jar:5.2.2.Final/javax.enterprise:cdi-api:jar:1.1/javax.inject:javax.inject:jar:1</node>
-            <node x="149.5" y="3391.875">org.hibernate:hibernate-entitymanager:jar:5.2.2.Final</node>
-            <node x="207.0" y="3932.8577731092446">org.apache.poi:poi:jar:3.15-beta2</node>
-            <node x="443.0" y="3932.8577731092446">org.apache.poi:poi:jar:3.15-beta2/commons-codec:commons-codec:jar:1.10</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE" target="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework:spring-tx:jar:4.3.2.RELEASE">
-              <point x="58.0" y="-0.0" />
-              <point x="320.0" y="2407.8577731092446" />
-              <point x="400.0" y="2413.9788048552764" />
-              <point x="-40.5" y="-0.0" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:5.2.2.Final/javax.enterprise:cdi-api:jar:1.1" target="org.hibernate:hibernate-core:jar:5.2.2.Final/javax.enterprise:cdi-api:jar:1.1/javax.el:el-api:jar:2.2">
-              <point x="35.5" y="-11.25" />
-              <point x="611.0" y="3312.7288048552764" />
-              <point x="691.0" y="3144.636904761905" />
-              <point x="-32.0" y="-0.0" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:5.2.2.Final" target="org.hibernate:hibernate-core:jar:5.2.2.Final/org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final">
-              <point x="56.0" y="10.0" />
-              <point x="320.0" y="3047.8577731092446" />
-              <point x="-105.5" y="-0.0" />
-            </edge>
-            <edge source="org.vaadin.addons:vaadin-excel-exporter:jar:1.0.2" target="org.vaadin.addons:vaadin-excel-exporter:jar:1.0.2/org.apache.poi:poi-ooxml:jar:3.9">
-              <point x="74.0" y="10.0" />
-              <point x="320.0" y="3777.136904761905" />
-              <point x="400.0" y="3877.8577731092446" />
-              <point x="-44.5" y="-0.0" />
-            </edge>
-            <edge source="org.vaadin.addons:vaadin-excel-exporter:jar:1.0.2/com.vaadin:vaadin-server:jar:7.6.6" target="org.vaadin.addons:vaadin-excel-exporter:jar:1.0.2/com.vaadin:vaadin-server:jar:7.6.6/org.jsoup:jsoup:jar:1.8.3">
-              <point x="52.5" y="10.0" />
-              <point x="611.0" y="3637.136904761905" />
-              <point x="691.0" y="3737.8577731092446" />
-              <point x="-31.5" y="-0.0" />
-            </edge>
-            <edge source="javax:javaee-api:jar:7.0/com.sun.mail:javax.mail:jar:1.5.5" target="javax:javaee-api:jar:7.0/com.sun.mail:javax.mail:jar:1.5.5/javax.activation:activation:jar:1.1">
-              <point x="43.0" y="-0.0" />
-              <point x="-43.0" y="-0.0" />
-            </edge>
-            <edge source="org.vaadin.addons:vaadin-excel-exporter:jar:1.0.2/com.vaadin:vaadin-server:jar:7.6.6/com.vaadin:vaadin-sass-compiler:jar:0.9.13" target="org.vaadin.addons:vaadin-excel-exporter:jar:1.0.2/com.vaadin:vaadin-server:jar:7.6.6/com.vaadin:vaadin-sass-compiler:jar:0.9.13/org.w3c.css:sac:jar:1.3">
-              <point x="73.5" y="-10.0" />
-              <point x="890.0" y="3482.8577731092446" />
-              <point x="970.0" y="3324.636904761905" />
-              <point x="-25.5" y="-0.0" />
-            </edge>
-            <edge source="ru.sbt.etsm:DrDiff:1.0-SNAPSHOT" target="org.apache.poi:poi:jar:3.15-beta2">
-              <point x="32.5" y="14.11764705882365" />
-              <point x="145.0" y="3947.8577731092446" />
-              <point x="-25.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-devtools:jar:1.4.0.RELEASE" target="org.springframework.boot:spring-boot-devtools:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot:jar:1.4.0.RELEASE">
-              <point x="73.5" y="-7.5" />
-              <point x="320.0" y="1722.5" />
-              <point x="400.0" y="1696.8365779645205" />
-              <point x="-48.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.0.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.0.RELEASE/org.hamcrest:hamcrest-library:jar:1.3">
-              <point x="79.5" y="3.3333333333332575" />
-              <point x="400.0" y="1416.8365779645205" />
-              <point x="-60.5" y="-0.0" />
-            </edge>
-            <edge source="ru.sbt.etsm:DrDiff:1.0-SNAPSHOT" target="commons-io:commons-io:jar:2.5">
-              <point x="32.5" y="-7.058823529411711" />
-              <point x="145.0" y="365.0" />
-              <point x="-51.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.0.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.0.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0">
-              <point x="79.5" y="-6.6666666666667425" />
-              <point x="400.0" y="1206.8365779645205" />
-              <point x="-42.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE" target="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework:spring-orm:jar:4.3.2.RELEASE">
-              <point x="58.0" y="-10.0" />
-              <point x="320.0" y="2397.8577731092446" />
-              <point x="400.0" y="2203.9788048552764" />
-              <point x="-47.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.0.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.0.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.4">
-              <point x="89.0" y="10.0" />
-              <point x="611.0" y="732.136904761905" />
-              <point x="-87.5" y="-0.0" />
-            </edge>
-            <edge source="ru.sbt.etsm:DrDiff:1.0-SNAPSHOT" target="com.google.guava:guava:jar:19.0">
-              <point x="32.5" y="-12.352941176470495" />
-              <point x="145.0" y="85.0" />
-              <point x="-33.0" y="-0.0" />
-            </edge>
-            <edge source="ru.sbt.etsm:DrDiff:1.0-SNAPSHOT" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE">
-              <point x="32.5" y="-3.5294117647058556" />
-              <point x="-81.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.0.RELEASE/org.mockito:mockito-core:jar:1.10.19" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.0.RELEASE/org.mockito:mockito-core:jar:1.10.19/org.objenesis:objenesis:jar:2.1">
-              <point x="53.0" y="-0.0" />
-              <point x="-41.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.0.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.0.RELEASE/ch.qos.logback:logback-classic:jar:1.1.7">
-              <point x="90.5" y="-10.0" />
-              <point x="970.0" y="447.85777310924436" />
-              <point x="-57.5" y="-0.0" />
-            </edge>
-            <edge source="org.vaadin.addons:vaadin-excel-exporter:jar:1.0.2/net.karneim:pojobuilder:jar:2.3.3/org.antlr:ST4:jar:4.0.7/org.antlr:antlr-runtime:jar:3.5" target="org.vaadin.addons:vaadin-excel-exporter:jar:1.0.2/net.karneim:pojobuilder:jar:2.3.3/org.antlr:ST4:jar:4.0.7/org.antlr:antlr-runtime:jar:3.5/org.antlr:stringtemplate:jar:3.2.1">
-              <point x="52.5" y="-0.0" />
-              <point x="-55.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.0.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.0.RELEASE/org.springframework:spring-core:jar:4.3.2.RELEASE">
-              <point x="79.5" y="10.0" />
-              <point x="400.0" y="1556.8365779645205" />
-              <point x="-47.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE/org.springframework:spring-webmvc:jar:4.3.2.RELEASE">
-              <point x="81.0" y="12.0" />
-              <point x="400.0" y="996.8365779645205" />
-              <point x="-58.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE" target="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.aspectj:aspectjrt:jar:1.8.9">
-              <point x="58.0" y="6.666666666666515" />
-              <point x="320.0" y="2414.5244397759107" />
-              <point x="400.0" y="2553.9788048552764" />
-              <point x="-39.5" y="-0.0" />
-            </edge>
-            <edge source="ru.sbt.etsm:DrDiff:1.0-SNAPSHOT" target="org.hibernate:hibernate-entitymanager:jar:5.2.2.Final">
-              <point x="32.5" y="10.588235294117567" />
-              <point x="-83.0" y="-0.0" />
-            </edge>
-            <edge source="com.vaadin:vaadin-spring-boot-starter:jar:1.0.1" target="com.vaadin:vaadin-spring-boot-starter:jar:1.0.1/com.vaadin:vaadin-themes:jar:7.4.4">
-              <point x="87.5" y="-0.0" />
-              <point x="400.0" y="1906.8365779645205" />
-              <point x="-56.5" y="-0.0" />
-            </edge>
-            <edge source="ru.sbt.etsm:DrDiff:1.0-SNAPSHOT" target="javax:javaee-api:jar:7.0">
-              <point x="32.5" y="5.294117647058783" />
-              <point x="145.0" y="2063.9788048552764" />
-              <point x="-44.0" y="-0.0" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:5.2.2.Final" target="org.hibernate:hibernate-core:jar:5.2.2.Final/org.apache.geronimo.specs:geronimo-jta_1.1_spec:jar:1.1.1">
-              <point x="56.0" y="-3.333333333333485" />
-              <point x="320.0" y="3034.5244397759107" />
-              <point x="400.0" y="2973.9788048552764" />
-              <point x="-76.5" y="-0.0" />
-            </edge>
-            <edge source="org.vaadin.addons:vaadin-excel-exporter:jar:1.0.2/com.vaadin:vaadin-server:jar:7.6.6/com.vaadin:vaadin-sass-compiler:jar:0.9.13" target="org.vaadin.addons:vaadin-excel-exporter:jar:1.0.2/com.vaadin:vaadin-server:jar:7.6.6/com.vaadin:vaadin-sass-compiler:jar:0.9.13/com.yahoo.platform.yui:yuicompressor:jar:2.4.8">
-              <point x="73.5" y="10.0" />
-              <point x="890.0" y="3502.8577731092446" />
-              <point x="970.0" y="3562.8577731092446" />
-              <point x="-56.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE" target="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.21">
-              <point x="58.0" y="13.333333333333485" />
-              <point x="320.0" y="2421.1911064425776" />
-              <point x="400.0" y="2693.9788048552764" />
-              <point x="-50.0" y="-0.0" />
-            </edge>
-            <edge source="org.vaadin.addons:vaadin-excel-exporter:jar:1.0.2/com.vaadin:vaadin-server:jar:7.6.6" target="org.vaadin.addons:vaadin-excel-exporter:jar:1.0.2/com.vaadin:vaadin-server:jar:7.6.6/com.vaadin:vaadin-shared:jar:7.6.6">
-              <point x="52.5" y="-0.0" />
-              <point x="611.0" y="3627.136904761905" />
-              <point x="691.0" y="3667.8577731092446" />
-              <point x="-54.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.0.RELEASE/ch.qos.logback:logback-classic:jar:1.1.7" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.0.RELEASE/ch.qos.logback:logback-classic:jar:1.1.7/ch.qos.logback:logback-core:jar:1.1.7">
-              <point x="57.5" y="-0.0" />
-              <point x="-52.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.0.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-test:jar:1.4.0.RELEASE">
-              <point x="79.5" y="-13.333333333333258" />
-              <point x="400.0" y="1066.8365779645205" />
-              <point x="-60.5" y="-0.0" />
-            </edge>
-            <edge source="com.thoughtworks.xstream:xstream:jar:1.4.9" target="com.thoughtworks.xstream:xstream:jar:1.4.9/xpp3:xpp3_min:jar:1.1.4c">
-              <point x="37.5" y="7.5" />
-              <point x="320.0" y="162.5" />
-              <point x="400.0" y="190.0" />
-              <point x="-42.5" y="-0.0" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:5.2.2.Final" target="org.hibernate:hibernate-core:jar:5.2.2.Final/com.fasterxml:classmate:jar:1.3.1">
-              <point x="56.0" y="3.333333333333485" />
-              <point x="320.0" y="3041.1911064425776" />
-              <point x="400.0" y="3113.9788048552764" />
-              <point x="-43.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE" target="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework:spring-aop:jar:4.3.2.RELEASE">
-              <point x="58.0" y="-3.333333333333485" />
-              <point x="320.0" y="2404.5244397759107" />
-              <point x="400.0" y="2343.9788048552764" />
-              <point x="-46.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.0.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.0.RELEASE/org.yaml:snakeyaml:jar:1.17">
-              <point x="67.5" y="7.5" />
-              <point x="611.0" y="547.5" />
-              <point x="691.0" y="576.8365779645205" />
-              <point x="-45.0" y="-0.0" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:5.2.2.Final" target="org.hibernate:hibernate-core:jar:5.2.2.Final/org.jboss:jandex:jar:2.0.0.Final">
-              <point x="56.0" y="-0.0" />
-              <point x="320.0" y="3037.8577731092446" />
-              <point x="400.0" y="3043.9788048552764" />
-              <point x="-34.0" y="-0.0" />
-            </edge>
-            <edge source="ru.sbt.etsm:DrDiff:1.0-SNAPSHOT" target="org.springframework.boot:spring-boot-devtools:jar:1.4.0.RELEASE">
-              <point x="32.5" y="-0.0" />
-              <point x="145.0" y="1730.0" />
-              <point x="-73.5" y="-0.0" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:5.2.2.Final/javax.enterprise:cdi-api:jar:1.1" target="org.hibernate:hibernate-core:jar:5.2.2.Final/javax.enterprise:cdi-api:jar:1.1/org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.1_spec:jar:1.0.0.Beta1">
-              <point x="35.5" y="-3.75" />
-              <point x="611.0" y="3320.2288048552764" />
-              <point x="-99.5" y="-0.0" />
-            </edge>
-            <edge source="com.vaadin:vaadin-spring-boot-starter:jar:1.0.1/com.vaadin:vaadin-spring-boot:jar:1.0.1" target="com.vaadin:vaadin-spring-boot-starter:jar:1.0.1/com.vaadin:vaadin-spring-boot:jar:1.0.1/com.vaadin:vaadin-spring:jar:1.0.1">
-              <point x="68.5" y="-0.0" />
-              <point x="-53.5" y="-0.0" />
-            </edge>
-            <edge source="org.vaadin.addons:vaadin-excel-exporter:jar:1.0.2/com.vaadin:vaadin-server:jar:7.6.6/com.vaadin:vaadin-shared:jar:7.6.6" target="org.vaadin.addons:vaadin-excel-exporter:jar:1.0.2/com.vaadin:vaadin-server:jar:7.6.6/com.vaadin:vaadin-shared:jar:7.6.6/com.vaadin.external.google:guava:jar:16.0.1.vaadin1">
-              <point x="54.5" y="7.5" />
-              <point x="890.0" y="3675.3577731092446" />
-              <point x="970.0" y="3702.8577731092446" />
-              <point x="-33.0" y="-0.0" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:5.2.2.Final" target="org.hibernate:hibernate-core:jar:5.2.2.Final/org.jboss.logging:jboss-logging:jar:3.3.0.Final">
-              <point x="56.0" y="-13.333333333333485" />
-              <point x="320.0" y="3024.5244397759107" />
-              <point x="400.0" y="2763.9788048552764" />
-              <point x="-53.5" y="-0.0" />
-            </edge>
-            <edge source="ru.sbt.etsm:DrDiff:1.0-SNAPSHOT" target="com.fasterxml.jackson.core:jackson-databind:jar:2.8.2">
-              <point x="32.5" y="-5.294117647058783" />
-              <point x="145.0" y="435.0" />
-              <point x="-63.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE/org.hibernate:hibernate-validator:jar:5.2.4.Final" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE/org.hibernate:hibernate-validator:jar:5.2.4.Final/javax.validation:validation-api:jar:1.1.0.Final">
-              <point x="67.5" y="-0.0" />
-              <point x="-53.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.0.RELEASE">
-              <point x="81.0" y="-6.0" />
-              <point x="400.0" y="722.136904761905" />
-              <point x="-89.0" y="-0.0" />
-            </edge>
-            <edge source="com.thoughtworks.xstream:xstream:jar:1.4.9" target="com.thoughtworks.xstream:xstream:jar:1.4.9/xmlpull:xmlpull:jar:1.1.3.1">
-              <point x="37.5" y="-7.5" />
-              <point x="320.0" y="147.5" />
-              <point x="400.0" y="120.0" />
-              <point x="-36.5" y="-0.0" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:5.2.2.Final" target="org.hibernate:hibernate-core:jar:5.2.2.Final/javax.enterprise:cdi-api:jar:1.1">
-              <point x="56.0" y="13.333333333333485" />
-              <point x="320.0" y="3051.1911064425776" />
-              <point x="400.0" y="3323.9788048552764" />
-              <point x="-35.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.0.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.0.RELEASE/org.springframework:spring-test:jar:4.3.2.RELEASE">
-              <point x="79.5" y="13.333333333333258" />
-              <point x="400.0" y="1626.8365779645205" />
-              <point x="-45.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE" target="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework.data:spring-data-commons:jar:1.12.2.RELEASE">
-              <point x="58.0" y="-13.333333333333485" />
-              <point x="320.0" y="2394.5244397759107" />
-              <point x="400.0" y="2133.9788048552764" />
-              <point x="-77.0" y="-0.0" />
-            </edge>
-            <edge source="org.vaadin.addons:vaadin-excel-exporter:jar:1.0.2/net.karneim:pojobuilder:jar:2.3.3/org.antlr:ST4:jar:4.0.7" target="org.vaadin.addons:vaadin-excel-exporter:jar:1.0.2/net.karneim:pojobuilder:jar:2.3.3/org.antlr:ST4:jar:4.0.7/org.antlr:antlr-runtime:jar:3.5">
-              <point x="26.5" y="-0.0" />
-              <point x="-52.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.0.RELEASE">
-              <point x="81.0" y="-12.0" />
-              <point x="400.0" y="540.0" />
-              <point x="-67.5" y="-0.0" />
-            </edge>
-            <edge source="org.vaadin.addons:vaadin-excel-exporter:jar:1.0.2/com.vaadin:vaadin-server:jar:7.6.6" target="org.vaadin.addons:vaadin-excel-exporter:jar:1.0.2/com.vaadin:vaadin-server:jar:7.6.6/com.vaadin:vaadin-sass-compiler:jar:0.9.13">
-              <point x="52.5" y="-10.0" />
-              <point x="611.0" y="3617.136904761905" />
-              <point x="691.0" y="3492.8577731092446" />
-              <point x="-73.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-devtools:jar:1.4.0.RELEASE" target="org.springframework.boot:spring-boot-devtools:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:1.4.0.RELEASE">
-              <point x="73.5" y="7.5" />
-              <point x="320.0" y="1737.5" />
-              <point x="400.0" y="1766.8365779645205" />
-              <point x="-88.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE/org.springframework:spring-webmvc:jar:4.3.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE/org.springframework:spring-webmvc:jar:4.3.2.RELEASE/org.springframework:spring-expression:jar:4.3.2.RELEASE">
-              <point x="58.5" y="-0.0" />
-              <point x="-63.5" y="-0.0" />
-            </edge>
-            <edge source="com.fasterxml.jackson.core:jackson-databind:jar:2.8.2" target="com.fasterxml.jackson.core:jackson-databind:jar:2.8.2/com.fasterxml.jackson.core:jackson-core:jar:2.8.1">
-              <point x="63.0" y="7.5" />
-              <point x="320.0" y="442.5" />
-              <point x="400.0" y="470.0" />
-              <point x="-51.0" y="-0.0" />
-            </edge>
-            <edge source="ru.sbt.etsm:DrDiff:1.0-SNAPSHOT" target="org.hibernate:hibernate-core:jar:5.2.2.Final">
-              <point x="32.5" y="8.823529411764639" />
-              <point x="145.0" y="3037.8577731092446" />
-              <point x="-56.0" y="-0.0" />
-            </edge>
-            <edge source="org.vaadin.addons:vaadin-excel-exporter:jar:1.0.2/org.apache.poi:poi-ooxml:jar:3.9/org.apache.poi:poi-ooxml-schemas:jar:3.9/org.apache.xmlbeans:xmlbeans:jar:2.3.0" target="org.vaadin.addons:vaadin-excel-exporter:jar:1.0.2/org.apache.poi:poi-ooxml:jar:3.9/org.apache.poi:poi-ooxml-schemas:jar:3.9/org.apache.xmlbeans:xmlbeans:jar:2.3.0/stax:stax-api:jar:1.0.1">
-              <point x="42.0" y="-0.0" />
-              <point x="-37.5" y="-0.0" />
-            </edge>
-            <edge source="org.vaadin.addons:vaadin-excel-exporter:jar:1.0.2/org.apache.poi:poi-ooxml:jar:3.9/org.apache.poi:poi-ooxml-schemas:jar:3.9" target="org.vaadin.addons:vaadin-excel-exporter:jar:1.0.2/org.apache.poi:poi-ooxml:jar:3.9/org.apache.poi:poi-ooxml-schemas:jar:3.9/org.apache.xmlbeans:xmlbeans:jar:2.3.0">
-              <point x="70.0" y="-0.0" />
-              <point x="-42.0" y="-0.0" />
-            </edge>
-            <edge source="junit:junit:jar:4.12" target="junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3">
-              <point x="29.0" y="-0.0" />
-              <point x="-55.5" y="-0.0" />
-            </edge>
-            <edge source="org.vaadin.addons:vaadin-excel-exporter:jar:1.0.2/com.vaadin:vaadin-server:jar:7.6.6/com.vaadin:vaadin-shared:jar:7.6.6" target="org.vaadin.addons:vaadin-excel-exporter:jar:1.0.2/com.vaadin:vaadin-server:jar:7.6.6/com.vaadin:vaadin-shared:jar:7.6.6/com.vaadin.external.streamhtmlparser:streamhtmlparser-jsilver:jar:0.0.10.vaadin1">
-              <point x="54.5" y="-7.5" />
-              <point x="890.0" y="3660.3577731092446" />
-              <point x="-81.0" y="-0.0" />
-            </edge>
-            <edge source="org.vaadin.addons:vaadin-excel-exporter:jar:1.0.2/com.vaadin:vaadin-server:jar:7.6.6/com.vaadin:vaadin-sass-compiler:jar:0.9.13" target="org.vaadin.addons:vaadin-excel-exporter:jar:1.0.2/com.vaadin:vaadin-server:jar:7.6.6/com.vaadin:vaadin-sass-compiler:jar:0.9.13/com.vaadin.external.flute:flute:jar:1.3.0.gg2">
-              <point x="73.5" y="-0.0" />
-              <point x="-29.0" y="-0.0" />
-            </edge>
-            <edge source="org.reflections:reflections:jar:0.9.10" target="org.reflections:reflections:jar:0.9.10/org.javassist:javassist:jar:3.20.0-GA">
-              <point x="44.5" y="-7.5" />
-              <point x="320.0" y="287.5" />
-              <point x="400.0" y="260.0" />
-              <point x="-38.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.0.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.0.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.4">
-              <point x="89.0" y="-10.0" />
-              <point x="611.0" y="712.136904761905" />
-              <point x="691.0" y="646.8365779645205" />
-              <point x="-71.0" y="-0.0" />
-            </edge>
-            <edge source="com.vaadin:vaadin-spring-boot-starter:jar:1.0.1" target="com.vaadin:vaadin-spring-boot-starter:jar:1.0.1/com.vaadin:vaadin-spring-boot:jar:1.0.1">
-              <point x="87.5" y="-10.0" />
-              <point x="400.0" y="1836.8365779645205" />
-              <point x="-68.5" y="-0.0" />
-            </edge>
-            <edge source="com.fasterxml.jackson.core:jackson-databind:jar:2.8.2" target="com.fasterxml.jackson.core:jackson-databind:jar:2.8.2/com.fasterxml.jackson.core:jackson-annotations:jar:2.8.1">
-              <point x="63.0" y="-7.5" />
-              <point x="320.0" y="427.5" />
-              <point x="400.0" y="400.0" />
-              <point x="-71.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.0.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.0.RELEASE/org.assertj:assertj-core:jar:2.5.0">
-              <point x="79.5" y="-3.3333333333332575" />
-              <point x="400.0" y="1276.8365779645205" />
-              <point x="-47.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.0.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.0.RELEASE/org.skyscreamer:jsonassert:jar:1.3.0">
-              <point x="79.5" y="6.6666666666667425" />
-              <point x="400.0" y="1486.8365779645205" />
-              <point x="-43.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.0.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.0.RELEASE/org.slf4j:log4j-over-slf4j:jar:1.7.21">
-              <point x="90.5" y="10.0" />
-              <point x="970.0" y="629.6996732026157" />
-              <point x="-57.0" y="-0.0" />
-            </edge>
-            <edge source="ru.sbt.etsm:DrDiff:1.0-SNAPSHOT" target="com.vaadin:vaadin-spring-boot-starter:jar:1.0.1">
-              <point x="32.5" y="1.7647058823529278" />
-              <point x="-87.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE" target="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework:spring-context:jar:4.3.2.RELEASE">
-              <point x="58.0" y="-6.666666666666515" />
-              <point x="320.0" y="2401.1911064425776" />
-              <point x="400.0" y="2273.9788048552764" />
-              <point x="-55.5" y="-0.0" />
-            </edge>
-            <edge source="org.vaadin.addons:vaadin-excel-exporter:jar:1.0.2/com.vaadin:vaadin-server:jar:7.6.6/com.vaadin:vaadin-sass-compiler:jar:0.9.13/com.yahoo.platform.yui:yuicompressor:jar:2.4.8" target="org.vaadin.addons:vaadin-excel-exporter:jar:1.0.2/com.vaadin:vaadin-server:jar:7.6.6/com.vaadin:vaadin-sass-compiler:jar:0.9.13/com.yahoo.platform.yui:yuicompressor:jar:2.4.8/rhino:js:jar:1.7R2">
-              <point x="56.0" y="-0.0" />
-              <point x="-21.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.0.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.0.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1/net.minidev:accessors-smart:jar:1.1">
-              <point x="45.5" y="-0.0" />
-              <point x="-59.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.0.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1/net.minidev:accessors-smart:jar:1.1" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.0.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1/net.minidev:accessors-smart:jar:1.1/org.ow2.asm:asm:jar:5.0.3">
-              <point x="59.5" y="-0.0" />
-              <point x="-28.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.0.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:1.4.0.RELEASE">
-              <point x="79.5" y="-10.0" />
-              <point x="-100.5" y="-0.0" />
-            </edge>
-            <edge source="org.vaadin.addons:vaadin-excel-exporter:jar:1.0.2/net.karneim:pojobuilder:jar:2.3.3" target="org.vaadin.addons:vaadin-excel-exporter:jar:1.0.2/net.karneim:pojobuilder:jar:2.3.3/org.antlr:ST4:jar:4.0.7">
-              <point x="47.5" y="-0.0" />
-              <point x="-26.5" y="-0.0" />
-            </edge>
-            <edge source="org.vaadin.addons:vaadin-excel-exporter:jar:1.0.2/org.apache.poi:poi-ooxml:jar:3.9" target="org.vaadin.addons:vaadin-excel-exporter:jar:1.0.2/org.apache.poi:poi-ooxml:jar:3.9/org.apache.poi:poi-ooxml-schemas:jar:3.9">
-              <point x="44.5" y="-0.0" />
-              <point x="-70.0" y="-0.0" />
-            </edge>
-            <edge source="ru.sbt.etsm:DrDiff:1.0-SNAPSHOT" target="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE">
-              <point x="32.5" y="7.058823529411711" />
-              <point x="145.0" y="2407.8577731092446" />
-              <point x="-58.0" y="-0.0" />
-            </edge>
-            <edge source="ru.sbt.etsm:DrDiff:1.0-SNAPSHOT" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.0.RELEASE">
-              <point x="32.5" y="-1.7647058823529278" />
-              <point x="-79.5" y="-0.0" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:5.2.2.Final/javax.enterprise:cdi-api:jar:1.1" target="org.hibernate:hibernate-core:jar:5.2.2.Final/javax.enterprise:cdi-api:jar:1.1/javax.annotation:jsr250-api:jar:1.0">
-              <point x="35.5" y="3.75" />
-              <point x="611.0" y="3327.7288048552764" />
-              <point x="691.0" y="3352.8577731092446" />
-              <point x="-42.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.0.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.0.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.21">
-              <point x="90.5" y="-0.0" />
-              <point x="970.0" y="517.8577731092444" />
-              <point x="-44.5" y="-0.0" />
-            </edge>
-            <edge source="com.vaadin:vaadin-spring-boot-starter:jar:1.0.1" target="com.vaadin:vaadin-spring-boot-starter:jar:1.0.1/com.vaadin:vaadin-client-compiled:jar:7.4.4">
-              <point x="87.5" y="10.0" />
-              <point x="400.0" y="1976.8365779645205" />
-              <point x="-79.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.poi:poi:jar:3.15-beta2" target="org.apache.poi:poi:jar:3.15-beta2/commons-codec:commons-codec:jar:1.10">
-              <point x="25.5" y="-0.0" />
-              <point x="-62.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE" target="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework:spring-beans:jar:4.3.2.RELEASE">
-              <point x="58.0" y="3.333333333333485" />
-              <point x="320.0" y="2411.1911064425776" />
-              <point x="400.0" y="2483.9788048552764" />
-              <point x="-51.5" y="-0.0" />
-            </edge>
-            <edge source="ru.sbt.etsm:DrDiff:1.0-SNAPSHOT" target="org.reflections:reflections:jar:0.9.10">
-              <point x="32.5" y="-8.823529411764639" />
-              <point x="145.0" y="295.0" />
-              <point x="-44.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.0.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.0.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1">
-              <point x="42.5" y="-0.0" />
-              <point x="-45.5" y="-0.0" />
-            </edge>
-            <edge source="javax:javaee-api:jar:7.0" target="javax:javaee-api:jar:7.0/com.sun.mail:javax.mail:jar:1.5.5">
-              <point x="44.0" y="-0.0" />
-              <point x="-43.0" y="-0.0" />
-            </edge>
-            <edge source="ru.sbt.etsm:DrDiff:1.0-SNAPSHOT" target="junit:junit:jar:4.12">
-              <point x="32.5" y="-14.117647058823422" />
-              <point x="145.0" y="15.0" />
-              <point x="-29.0" y="-0.0" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:5.2.2.Final" target="org.hibernate:hibernate-core:jar:5.2.2.Final/org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final">
-              <point x="56.0" y="-10.0" />
-              <point x="320.0" y="3027.8577731092446" />
-              <point x="400.0" y="2833.9788048552764" />
-              <point x="-73.0" y="-0.0" />
-            </edge>
-            <edge source="ru.sbt.etsm:DrDiff:1.0-SNAPSHOT" target="com.thoughtworks.xstream:xstream:jar:1.4.9">
-              <point x="32.5" y="-10.588235294117567" />
-              <point x="145.0" y="155.0" />
-              <point x="-37.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.0.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.0.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.4">
-              <point x="89.0" y="-0.0" />
-              <point x="691.0" y="716.8365779645205" />
-              <point x="-64.0" y="-0.0" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:5.2.2.Final" target="org.hibernate:hibernate-core:jar:5.2.2.Final/dom4j:dom4j:jar:1.6.1">
-              <point x="56.0" y="6.666666666666515" />
-              <point x="320.0" y="3044.5244397759107" />
-              <point x="400.0" y="3183.9788048552764" />
-              <point x="-34.0" y="-0.0" />
-            </edge>
-            <edge source="ru.sbt.etsm:DrDiff:1.0-SNAPSHOT" target="com.h2database:h2:jar:1.4.192">
-              <point x="32.5" y="3.5294117647058556" />
-              <point x="145.0" y="1982.136904761905" />
-              <point x="-23.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.0.RELEASE/org.skyscreamer:jsonassert:jar:1.3.0" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.0.RELEASE/org.skyscreamer:jsonassert:jar:1.3.0/org.json:json:jar:20140107">
-              <point x="43.0" y="-0.0" />
-              <point x="-28.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.0.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.0.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.0.RELEASE">
-              <point x="67.5" y="-7.5" />
-              <point x="611.0" y="532.5" />
-              <point x="-90.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework:spring-orm:jar:4.3.2.RELEASE" target="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework:spring-orm:jar:4.3.2.RELEASE/org.springframework:spring-jdbc:jar:4.3.2.RELEASE">
-              <point x="47.0" y="-0.0" />
-              <point x="-47.5" y="-0.0" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:5.2.2.Final/javax.enterprise:cdi-api:jar:1.1" target="org.hibernate:hibernate-core:jar:5.2.2.Final/javax.enterprise:cdi-api:jar:1.1/javax.inject:javax.inject:jar:1">
-              <point x="35.5" y="11.25" />
-              <point x="611.0" y="3335.2288048552764" />
-              <point x="691.0" y="3422.8577731092446" />
-              <point x="-46.0" y="-0.0" />
-            </edge>
-            <edge source="org.vaadin.addons:vaadin-excel-exporter:jar:1.0.2" target="org.vaadin.addons:vaadin-excel-exporter:jar:1.0.2/com.vaadin:vaadin-server:jar:7.6.6">
-              <point x="74.0" y="-10.0" />
-              <point x="320.0" y="3757.136904761905" />
-              <point x="400.0" y="3627.136904761905" />
-              <point x="-52.5" y="-0.0" />
-            </edge>
-            <edge source="org.reflections:reflections:jar:0.9.10" target="org.reflections:reflections:jar:0.9.10/com.google.code.findbugs:annotations:jar:2.0.1">
-              <point x="44.5" y="7.5" />
-              <point x="320.0" y="302.5" />
-              <point x="400.0" y="330.0" />
-              <point x="-48.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE/org.springframework:spring-web:jar:4.3.2.RELEASE">
-              <point x="81.0" y="6.0" />
-              <point x="400.0" y="926.8365779645205" />
-              <point x="-47.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE/org.hibernate:hibernate-validator:jar:5.2.4.Final">
-              <point x="81.0" y="-0.0" />
-              <point x="400.0" y="856.8365779645205" />
-              <point x="-67.5" y="-0.0" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:5.2.2.Final" target="org.hibernate:hibernate-core:jar:5.2.2.Final/antlr:antlr:jar:2.7.7">
-              <point x="56.0" y="-6.666666666666515" />
-              <point x="320.0" y="3031.1911064425776" />
-              <point x="400.0" y="2903.9788048552764" />
-              <point x="-29.0" y="-0.0" />
-            </edge>
-            <edge source="org.vaadin.addons:vaadin-excel-exporter:jar:1.0.2" target="org.vaadin.addons:vaadin-excel-exporter:jar:1.0.2/net.karneim:pojobuilder:jar:2.3.3">
-              <point x="74.0" y="-0.0" />
-              <point x="320.0" y="3767.136904761905" />
-              <point x="400.0" y="3807.8577731092446" />
-              <point x="-47.5" y="-0.0" />
-            </edge>
-            <edge source="ru.sbt.etsm:DrDiff:1.0-SNAPSHOT" target="org.vaadin.addons:vaadin-excel-exporter:jar:1.0.2">
-              <point x="32.5" y="12.352941176470598" />
-              <point x="145.0" y="3767.136904761905" />
-              <point x="-74.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.0.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.0.RELEASE/org.mockito:mockito-core:jar:1.10.19">
-              <point x="79.5" y="-0.0" />
-              <point x="400.0" y="1346.8365779645205" />
-              <point x="-53.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE" target="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.slf4j:slf4j-api:jar:1.7.21">
-              <point x="58.0" y="10.0" />
-              <point x="320.0" y="2417.8577731092446" />
-              <point x="400.0" y="2623.9788048552764" />
-              <point x="-38.0" y="-0.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.3471252824504145" x="209.0" y="3287.0" />
-          <SelectedNodes>
-            <node>ru.sbt.etsm:DrDiff:1.0-SNAPSHOT</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23511">
-          <caret line="1384" column="17" selection-start-line="1384" selection-start-column="17" selection-end-line="1384" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.15-beta2/poi-3.15-beta2-sources.jar!/org/apache/poi/util/POILogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/context/ReportContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml/3.9/poi-ooxml-3.9-sources.jar!/org/apache/poi/openxml4j/opc/ZipPackage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml/3.9/poi-ooxml-3.9-sources.jar!/org/apache/poi/xssf/usermodel/XSSFWorkbook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="1003" column="29" selection-start-line="1003" selection-start-column="29" selection-end-line="1003" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml/3.9/poi-ooxml-3.9-sources.jar!/org/apache/poi/xssf/usermodel/XSSFRow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
@@ -2246,13 +1423,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/model/ChangeVector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/1.10.2.RELEASE/spring-data-jpa-1.10.2.RELEASE-sources.jar!/org/springframework/data/jpa/repository/JpaRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
@@ -2271,13 +1441,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
           <caret line="95" column="54" selection-start-line="95" selection-start-column="43" selection-end-line="95" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/application/ComparatorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12">
-          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -2388,13 +1551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/TsmComparatorBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/collections/HeterogeneCollectionComparator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -2403,26 +1559,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/collections/OccurencesCollectionComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/collections/OrderedCollectionComparator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/collections/CharacteristicCollectionComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2442,22 +1582,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/collections/MenuBarCollectionComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="23" column="63" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/collections/CollectionComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="24" column="26" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -2470,6 +1594,202 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/collections/MenuBarCollectionComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/xstream/converters/EnumConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/xstream/XmlConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/db/ChangeEntryRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/ILogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/collections/CollectionComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/xstream/TsmMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/ConditionComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/TsmComparatorBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="51" column="25" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/file/TemporaryFileDownloadResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="19" column="74" selection-start-line="19" selection-start-column="74" selection-end-line="19" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/CharacteristicComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/ConditionStatementComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/RuleComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/xstream/TsmReflectionProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/application/ComparatorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="69" column="88" selection-start-line="69" selection-start-column="88" selection-end-line="69" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/model/ChangeTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/collections/CharacteristicCollectionComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/collections/OccurencesCollectionComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="64" column="39" selection-start-line="64" selection-start-column="39" selection-end-line="64" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/xstream/converters/AllowDuplicatesConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="346" column="21" selection-start-line="346" selection-start-column="21" selection-end-line="346" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/model/ChangeVector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="89" column="19" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/file/TsmFileLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/model/ChangeItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="99" column="27" selection-start-line="99" selection-start-column="27" selection-end-line="99" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/sbt/etsm/drdiff/test/xml/TsmTestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
           <folding />
         </state>
       </provider>

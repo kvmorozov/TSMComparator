@@ -9,7 +9,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface ChangeEntryRepository extends JpaRepository<ChangeEntry, Long> {
 
-    public static final Sort DEFAULT_SORT = new Sort(Sort.Direction.ASC, "place")
+    Sort DEFAULT_SORT = new Sort(Sort.Direction.ASC, "place")
             .and(new Sort(Sort.Direction.ASC, "change"))
             .and(new Sort(Sort.Direction.ASC, "activator"))
             .and(new Sort(Sort.Direction.ASC, "role"));

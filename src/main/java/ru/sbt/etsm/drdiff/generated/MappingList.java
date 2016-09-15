@@ -62,7 +62,7 @@ public class MappingList {
      */
     public List<Characteristic> getCharacteristics() {
         if (characteristics == null) {
-            characteristics = new ArrayList<Characteristic>();
+            characteristics = new ArrayList<>();
         }
         return this.characteristics;
     }

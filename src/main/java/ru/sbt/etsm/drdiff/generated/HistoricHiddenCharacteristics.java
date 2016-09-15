@@ -62,7 +62,7 @@ public class HistoricHiddenCharacteristics {
      */
     public List<HistoricHiddenCharacteristic> getHistoricHiddenCharacteristics() {
         if (historicHiddenCharacteristics == null) {
-            historicHiddenCharacteristics = new ArrayList<HistoricHiddenCharacteristic>();
+            historicHiddenCharacteristics = new ArrayList<>();
         }
         return this.historicHiddenCharacteristics;
     }

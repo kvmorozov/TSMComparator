@@ -62,7 +62,7 @@ public class GeneratedCharacteristics {
      */
     public List<GeneratedCharacteristic> getGeneratedCharacteristics() {
         if (generatedCharacteristics == null) {
-            generatedCharacteristics = new ArrayList<GeneratedCharacteristic>();
+            generatedCharacteristics = new ArrayList<>();
         }
         return this.generatedCharacteristics;
     }

@@ -15,7 +15,7 @@ public interface ILogger extends Closeable {
 
     void logReport(ChangeTree tree);
 
-    public static ILogger getLogger() throws IOException {
+    static ILogger getLogger() throws IOException {
         return new TsmFileLogger(new File("E:\\ETSM\\log\\log" + (new Date()).getTime() + ".txt"));
     }
 

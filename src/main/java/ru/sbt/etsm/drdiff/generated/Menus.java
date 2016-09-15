@@ -71,7 +71,7 @@ public class Menus {
      */
     public List<MenuBar> getMenuBars() {
         if (menuBars == null) {
-            menuBars = new ArrayList<MenuBar>();
+            menuBars = new ArrayList<>();
         }
         return this.menuBars;
     }

@@ -75,7 +75,7 @@ public class Sequence {
      */
     public List<Option> getOptions() {
         if (options == null) {
-            options = new ArrayList<Option>();
+            options = new ArrayList<>();
         }
         return this.options;
     }
@@ -104,7 +104,7 @@ public class Sequence {
      */
     public List<Occurence> getOccurences() {
         if (occurences == null) {
-            occurences = new ArrayList<Occurence>();
+            occurences = new ArrayList<>();
         }
         return this.occurences;
     }

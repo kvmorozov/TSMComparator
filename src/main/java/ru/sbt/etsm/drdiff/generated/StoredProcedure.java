@@ -99,7 +99,7 @@ public class StoredProcedure {
      */
     public List<Option> getOptions() {
         if (options == null) {
-            options = new ArrayList<Option>();
+            options = new ArrayList<>();
         }
         return this.options;
     }

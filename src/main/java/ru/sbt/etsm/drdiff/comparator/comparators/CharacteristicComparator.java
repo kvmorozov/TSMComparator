@@ -4,15 +4,14 @@ import ru.sbt.etsm.drdiff.comparator.context.ReportContext;
 import ru.sbt.etsm.drdiff.generated.Rule;
 
 import java.lang.reflect.Field;
-import java.util.Set;
 
 /**
  * Created by SBT-Morozov-KV on 17.08.2016.
  */
 public class CharacteristicComparator extends SkipFieldsComparator {
 
-    public CharacteristicComparator(Set<String> skipFields) {
-        super(skipFields);
+    public CharacteristicComparator() {
+        super(CHARACTERISTIC_SET);
     }
 
     private class FakeIdHolder {

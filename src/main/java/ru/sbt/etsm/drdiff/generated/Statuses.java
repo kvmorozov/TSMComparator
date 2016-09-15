@@ -71,7 +71,7 @@ public class Statuses {
      */
     public List<Status> getStatuses() {
         if (statuses == null) {
-            statuses = new ArrayList<Status>();
+            statuses = new ArrayList<>();
         }
         return this.statuses;
     }

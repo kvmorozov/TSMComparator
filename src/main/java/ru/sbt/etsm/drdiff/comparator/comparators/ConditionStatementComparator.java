@@ -4,15 +4,14 @@ import ru.sbt.etsm.drdiff.comparator.context.ReportContext;
 import ru.sbt.etsm.drdiff.generated.Rule;
 
 import java.lang.reflect.Field;
-import java.util.Set;
 
 /**
  * Created by sbt-morozov-kv on 24.08.2016.
  */
 public class ConditionStatementComparator extends SkipFieldsComparator {
 
-    public ConditionStatementComparator(Set<String> skipFields) {
-        super(skipFields);
+    public ConditionStatementComparator() {
+        super(COND_STAT_SET);
     }
 
     private class FakeIdHolder {

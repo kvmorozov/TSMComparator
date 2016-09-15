@@ -103,7 +103,7 @@ public class Occurence {
      */
     public List<Condition> getConditions() {
         if (conditions == null) {
-            conditions = new ArrayList<Condition>();
+            conditions = new ArrayList<>();
         }
         return this.conditions;
     }

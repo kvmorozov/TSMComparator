@@ -21,7 +21,7 @@ public class EnumConverter extends ReflectionConverter
 	private boolean isArray;
 	private Class realClass;
 
-	public static final Method getEnumGetter(Class clazz) {
+	public static Method getEnumGetter(Class clazz) {
 		try
 		{
 			return clazz.getMethod(ENUM_GETTER_METHOD_NAME, String.class);

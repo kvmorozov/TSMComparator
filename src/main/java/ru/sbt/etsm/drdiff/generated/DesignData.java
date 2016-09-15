@@ -225,7 +225,7 @@ public class DesignData {
      */
     public List<Rules> getRules() {
         if (rules == null) {
-            rules = new ArrayList<Rules>();
+            rules = new ArrayList<>();
         }
         return this.rules;
     }
@@ -254,7 +254,7 @@ public class DesignData {
      */
     public List<Sequences> getSequences() {
         if (sequences == null) {
-            sequences = new ArrayList<Sequences>();
+            sequences = new ArrayList<>();
         }
         return this.sequences;
     }
@@ -331,7 +331,7 @@ public class DesignData {
      */
     public List<Screens> getScreens() {
         if (screens == null) {
-            screens = new ArrayList<Screens>();
+            screens = new ArrayList<>();
         }
         return this.screens;
     }
@@ -360,7 +360,7 @@ public class DesignData {
      */
     public List<Generations> getGenerations() {
         if (generations == null) {
-            generations = new ArrayList<Generations>();
+            generations = new ArrayList<>();
         }
         return this.generations;
     }

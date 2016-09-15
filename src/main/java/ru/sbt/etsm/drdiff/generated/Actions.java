@@ -71,7 +71,7 @@ public class Actions {
      */
     public List<Action> getActions() {
         if (actions == null) {
-            actions = new ArrayList<Action>();
+            actions = new ArrayList<>();
         }
         return this.actions;
     }

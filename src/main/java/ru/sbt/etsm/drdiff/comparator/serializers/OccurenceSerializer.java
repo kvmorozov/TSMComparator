@@ -11,14 +11,12 @@ public class OccurenceSerializer extends DefaultSerializer {
     public String serialize(Object objToSerialize) {
         Occurence occurence = (Occurence) objToSerialize;
 
-        return new StringBuilder()
-                .append(objToSerialize.getClass().getSimpleName())
-                .append(FIELDS_DELIM)
-                .append(occurence.getOccurenceType() == null ? occurence.getActionType() : occurence.getOccurenceType())
-                .append(FIELDS_DELIM)
-                .append(occurence.getName())
-                .append(FIELDS_DELIM)
-                .append(occurence.getIndex())
-                .toString();
+        return objToSerialize.getClass().getSimpleName() +
+                FIELDS_DELIM +
+                (occurence.getOccurenceType() == null ? occurence.getActionType() : occurence.getOccurenceType()) +
+                FIELDS_DELIM +
+                occurence.getName() +
+                FIELDS_DELIM +
+                occurence.getIndex();
     }
 }

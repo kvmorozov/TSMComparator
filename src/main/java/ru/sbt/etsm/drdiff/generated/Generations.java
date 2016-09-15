@@ -72,7 +72,7 @@ public class Generations {
      */
     public List<Matrix> getMatrixes() {
         if (matrixes == null) {
-            matrixes = new ArrayList<Matrix>();
+            matrixes = new ArrayList<>();
         }
         return this.matrixes;
     }
@@ -125,7 +125,7 @@ public class Generations {
      */
     public List<ConditionalExpression> getConditionalExpressions() {
         if (conditionalExpressions == null) {
-            conditionalExpressions = new ArrayList<ConditionalExpression>();
+            conditionalExpressions = new ArrayList<>();
         }
         return this.conditionalExpressions;
     }

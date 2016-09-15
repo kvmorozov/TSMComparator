@@ -65,7 +65,7 @@ public class Rules {
      */
     public List<Rule> getRules() {
         if (rules == null) {
-            rules = new ArrayList<Rule>();
+            rules = new ArrayList<>();
         }
         return this.rules;
     }

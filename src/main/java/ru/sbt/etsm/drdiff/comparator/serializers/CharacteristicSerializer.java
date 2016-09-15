@@ -13,14 +13,12 @@ public class CharacteristicSerializer extends DefaultSerializer {
     public String serialize(Object objToSerialize) {
         Characteristic characteristic = (Characteristic) objToSerialize;
 
-        return new StringBuilder()
-                .append(objToSerialize.getClass().getSimpleName())
-                .append(FIELDS_DELIM)
-                .append(characteristic.getTitle())
-                .append(FIELDS_DELIM)
-                .append(characteristic.getCritId() == null ? EMPTY_STR : characteristic.getCritId())
-                .append(FIELDS_DELIM)
-                .append(characteristic.getType())
-                .toString();
+        return objToSerialize.getClass().getSimpleName() +
+                FIELDS_DELIM +
+                characteristic.getTitle() +
+                FIELDS_DELIM +
+                (characteristic.getCritId() == null ? EMPTY_STR : characteristic.getCritId()) +
+                FIELDS_DELIM +
+                characteristic.getType();
     }
 }

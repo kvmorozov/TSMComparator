@@ -134,7 +134,7 @@ public class Screen {
      */
     public List<Option> getOptions() {
         if (options == null) {
-            options = new ArrayList<Option>();
+            options = new ArrayList<>();
         }
         return this.options;
     }
@@ -211,7 +211,7 @@ public class Screen {
      */
     public List<Characteristic> getCharacteristics() {
         if (characteristics == null) {
-            characteristics = new ArrayList<Characteristic>();
+            characteristics = new ArrayList<>();
         }
         return this.characteristics;
     }

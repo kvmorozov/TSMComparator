@@ -97,24 +97,19 @@ public class ChangeItem {
     public String getText() {
         if (text == null)
             try {
-                text = new StringBuilder()
-                        .append(PLACEHOLDER_TABS_N)
-                        .append(descObject.toString())
-                        .append(STR_SPACE)
-                        .append(getChangeItemType().getDesc())
-                        .append(":" + STR_SPACE)
-                        .append(
-                                getChildCount() == 0 && getChangeItemType() == ChangeItemType.CHANGE ?
-                                        new StringBuilder()
-                                                .append("\n" + PLACEHOLDER_TABS_N1 + "Old value:\n" + PLACEHOLDER_TABS_N2)
-                                                .append(oldObjDesc)
-                                                .append("\n" + PLACEHOLDER_TABS_N1 + "New value:\n" + PLACEHOLDER_TABS_N2)
-                                                .append(newObjDesc)
-                                                .toString() : EMPTY_STR
-                        )
-                        .append(getDescIfTrue(getChangeItemType() == ChangeItemType.ADD, newObjDesc))
-                        .append(getDescIfTrue(getChangeItemType() == ChangeItemType.REMOVE, oldObjDesc))
-                        .append(System.getProperty("line.separator")).toString();
+                text = PLACEHOLDER_TABS_N +
+                        descObject.toString() +
+                        STR_SPACE +
+                        getChangeItemType().getDesc() +
+                        ":" + STR_SPACE +
+                        (getChildCount() == 0 && getChangeItemType() == ChangeItemType.CHANGE ?
+                                ("\n" + PLACEHOLDER_TABS_N1 + "Old value:\n" + PLACEHOLDER_TABS_N2) +
+                                        oldObjDesc +
+                                        "\n" + PLACEHOLDER_TABS_N1 + "New value:\n" + PLACEHOLDER_TABS_N2 +
+                                        newObjDesc : EMPTY_STR) +
+                        getDescIfTrue(getChangeItemType() == ChangeItemType.ADD, newObjDesc) +
+                        getDescIfTrue(getChangeItemType() == ChangeItemType.REMOVE, oldObjDesc) +
+                        System.getProperty("line.separator");
             } catch (JsonProcessingException e) {
                 e.printStackTrace();
             }

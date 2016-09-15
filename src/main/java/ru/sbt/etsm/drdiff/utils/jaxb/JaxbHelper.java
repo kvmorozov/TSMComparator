@@ -59,8 +59,8 @@ public class JaxbHelper {
             throw new IllegalArgumentException("Не указаны XSD-схемы");
 
         boolean done = false;
-        Collection<InputStream> streams = new ArrayList<InputStream>(schemaFileNames.length);
-        Collection<Source> sources = new ArrayList<Source>(schemaFileNames.length);
+        Collection<InputStream> streams = new ArrayList<>(schemaFileNames.length);
+        Collection<Source> sources = new ArrayList<>(schemaFileNames.length);
         try {
             ClassLoader classLoader = Thread.currentThread().getContextClassLoader();
 

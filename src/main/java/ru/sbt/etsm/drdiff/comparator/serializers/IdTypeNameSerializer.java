@@ -9,14 +9,12 @@ public class IdTypeNameSerializer extends TsmSerializerBase {
 
     @Override
     public String serialize(Object objToSerialize) {
-        return new StringBuilder()
-                .append(objToSerialize.getClass().getSimpleName())
-                .append(FIELDS_DELIM)
-                .append(getFieldValue("type", objToSerialize))
-                .append(FIELDS_DELIM)
-                .append(getFieldValue("id", objToSerialize))
-                .append(FIELDS_DELIM)
-                .append(getFieldValue("name", objToSerialize))
-                .toString();
+        return objToSerialize.getClass().getSimpleName() +
+                FIELDS_DELIM +
+                getFieldValue("type", objToSerialize) +
+                FIELDS_DELIM +
+                getFieldValue("id", objToSerialize) +
+                FIELDS_DELIM +
+                getFieldValue("name", objToSerialize);
     }
 }

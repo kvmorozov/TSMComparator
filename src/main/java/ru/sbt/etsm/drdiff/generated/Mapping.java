@@ -71,7 +71,7 @@ public class Mapping {
      */
     public List<Element> getElements() {
         if (elements == null) {
-            elements = new ArrayList<Element>();
+            elements = new ArrayList<>();
         }
         return this.elements;
     }

@@ -62,7 +62,7 @@ public class BuilderLayout {
      */
     public List<MappingSM> getMappingSMs() {
         if (mappingSMs == null) {
-            mappingSMs = new ArrayList<MappingSM>();
+            mappingSMs = new ArrayList<>();
         }
         return this.mappingSMs;
     }

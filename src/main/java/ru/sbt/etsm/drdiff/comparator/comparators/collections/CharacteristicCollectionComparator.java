@@ -56,9 +56,7 @@ public class CharacteristicCollectionComparator extends CollectionComparator {
                 }
         );
 
-        for (Object item : newCollectionCloned)
-            if (!matches.containsValue(item))
-                matches.put(null, newMatcher.getMatchedObject(item));
+        newCollectionCloned.stream().filter(item -> !matches.containsValue(item)).forEach(item -> matches.put(null, newMatcher.getMatchedObject(item)));
 
         newMatcher.setCollectionToCheck(newCollection);
 

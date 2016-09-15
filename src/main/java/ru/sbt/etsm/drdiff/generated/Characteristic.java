@@ -239,7 +239,7 @@ public class Characteristic {
      */
     public List<Option> getOptions() {
         if (options == null) {
-            options = new ArrayList<Option>();
+            options = new ArrayList<>();
         }
         return this.options;
     }
@@ -319,7 +319,7 @@ public class Characteristic {
      */
     public List<Object> getJoinedCharacteristicsAndCalculationsAndOnExits() {
         if (joinedCharacteristicsAndCalculationsAndOnExits == null) {
-            joinedCharacteristicsAndCalculationsAndOnExits = new ArrayList<Object>();
+            joinedCharacteristicsAndCalculationsAndOnExits = new ArrayList<>();
         }
         return this.joinedCharacteristicsAndCalculationsAndOnExits;
     }

@@ -59,7 +59,7 @@ public class TableList {
      */
     public List<Table> getTables() {
         if (tables == null) {
-            tables = new ArrayList<Table>();
+            tables = new ArrayList<>();
         }
         return this.tables;
     }

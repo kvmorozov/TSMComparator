@@ -99,7 +99,7 @@ public class Status {
      */
     public List<StatusFlow> getStatusFlows() {
         if (statusFlows == null) {
-            statusFlows = new ArrayList<StatusFlow>();
+            statusFlows = new ArrayList<>();
         }
         return this.statusFlows;
     }

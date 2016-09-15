@@ -71,7 +71,7 @@ public class StoreProcedures {
      */
     public List<StoredProcedure> getStoredProcedures() {
         if (storedProcedures == null) {
-            storedProcedures = new ArrayList<StoredProcedure>();
+            storedProcedures = new ArrayList<>();
         }
         return this.storedProcedures;
     }

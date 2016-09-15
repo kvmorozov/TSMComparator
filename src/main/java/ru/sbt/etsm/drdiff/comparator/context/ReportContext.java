@@ -60,7 +60,7 @@ public class ReportContext {
         } else
             throw new AssertionError();
 
-        return new StringBuilder().append("$").append(tableName).append(",").append(criteriaName).append("$").toString();
+        return "$" + tableName + "," + criteriaName + "$";
     }
 
     public List getRefCollection(String refClassName) {

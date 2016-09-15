@@ -66,7 +66,7 @@ public class GenerationList {
      */
     public List<Generation> getGenerations() {
         if (generations == null) {
-            generations = new ArrayList<Generation>();
+            generations = new ArrayList<>();
         }
         return this.generations;
     }
@@ -95,7 +95,7 @@ public class GenerationList {
      */
     public List<ConditionStatement> getConditionStatements() {
         if (conditionStatements == null) {
-            conditionStatements = new ArrayList<ConditionStatement>();
+            conditionStatements = new ArrayList<>();
         }
         return this.conditionStatements;
     }

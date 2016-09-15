@@ -62,8 +62,7 @@ public class OccurencesCollectionComparator extends CollectionComparator {
             ChangeItem fullResult = compare(fullComparator, descObject);
 
             if (fullResult != null && fullResult.getChildCount() > 0)
-                for (ChangeItem item : fullResult.getChildItems())
-                    result.addChild(item);
+                fullResult.getChildItems().forEach(result::addChild);
         }
 
         return result.getChildCount() == 0 ? null : result;

@@ -3,7 +3,6 @@ package ru.sbt.etsm.drdiff.comparator.comparators;
 import ru.sbt.etsm.drdiff.comparator.context.ReportContext;
 
 import java.lang.reflect.Field;
-import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -14,8 +13,8 @@ public class RuleComparator extends SkipFieldsComparator {
 
     private static Pattern pattern = Pattern.compile("[$]([0-9])+,([0-9])+[$]");
 
-    public RuleComparator(Set<String> skipFields) {
-        super(skipFields);
+    public RuleComparator() {
+        super(RULE_SET);
     }
 
     @Override

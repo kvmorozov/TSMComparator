@@ -216,9 +216,8 @@ public class AllowDuplicatesConverter extends ReflectionConverter {
         }
 
         if (implicitCollectionsForCurrentObject != null) {
-            for (Iterator iter = implicitCollectionsForCurrentObject.entrySet().iterator(); iter
-                    .hasNext(); ) {
-                Map.Entry entry = (Map.Entry) iter.next();
+            for (Object o : implicitCollectionsForCurrentObject.entrySet()) {
+                Map.Entry entry = (Map.Entry) o;
                 Object value = entry.getValue();
                 if (value instanceof ArraysList) {
                     Object array = ((ArraysList) value).toPhysicalArray();
@@ -340,12 +339,7 @@ public class AllowDuplicatesConverter extends ReflectionConverter {
                     try {
                         Object key = field.get(object);
                         return map.put(key, object) == null;
-                    } catch (IllegalArgumentException e) {
-                        throw new ObjectAccessException("Could not get field "
-                                + field.getClass()
-                                + "."
-                                + field.getName(), e);
-                    } catch (IllegalAccessException e) {
+                    } catch (IllegalArgumentException | IllegalAccessException e) {
                         throw new ObjectAccessException("Could not get field "
                                 + field.getClass()
                                 + "."

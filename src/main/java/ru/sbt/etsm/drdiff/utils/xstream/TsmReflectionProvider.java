@@ -81,7 +81,6 @@ public class TsmReflectionProvider extends PureJavaReflectionProvider {
             if (field.getType().isArray()) {
                 Object objs = field.get(object);
                 Class baseClass = field.getType().getComponentType();
-                // В value к нам придёт одноэлементный массив, созданный в EnumConverter.unmarshal или SoapArrayConverter.unmarshal
                 if (objs == null) {
                     field.set(object, value);
                 } else {
@@ -107,7 +106,7 @@ public class TsmReflectionProvider extends PureJavaReflectionProvider {
         try {
             result = super.newInstance(type);
         } catch (Exception ex) {
-            // Если это что-то типа SPName_Type
+            // пїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅ-пїЅпїЅ пїЅпїЅпїЅпїЅ SPName_Type
             try {
                 Field _tableField = type.getDeclaredField("_table_");
                 if (_tableField != null) {

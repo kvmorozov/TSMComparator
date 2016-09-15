@@ -71,7 +71,7 @@ public class Maps {
      */
     public List<Map> getMaps() {
         if (maps == null) {
-            maps = new ArrayList<Map>();
+            maps = new ArrayList<>();
         }
         return this.maps;
     }

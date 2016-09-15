@@ -62,7 +62,7 @@ public class ActionList {
      */
     public List<Occurence> getOccurences() {
         if (occurences == null) {
-            occurences = new ArrayList<Occurence>();
+            occurences = new ArrayList<>();
         }
         return this.occurences;
     }

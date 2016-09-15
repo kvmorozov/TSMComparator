@@ -43,7 +43,7 @@ public class ChangeVector {
     }
 
     public ChangeVector getTail() {
-        Deque<ChangeItem> clonedItems = (Deque<ChangeItem>) ((LinkedList) vectorItems).clone();
+        Deque<ChangeItem> clonedItems = (Deque) ((LinkedList) vectorItems).clone();
         clonedItems.removeFirst();
 
         return new ChangeVector(clonedItems);
@@ -87,13 +87,13 @@ public class ChangeVector {
 
     public List<ChangeVector> split() {
         if (vectorItems.getLast().getChildCount() == 0)
-            return Arrays.asList(this);
+            return Collections.singletonList(this);
         else {
             List<ChangeVector> split = new ArrayList<>();
             List<ChangeVector> result = new ArrayList<>();
 
             for (ChangeItem item : vectorItems.getLast().getChildItems()) {
-                Deque<ChangeItem> clonedItems = (Deque<ChangeItem>) ((LinkedList) vectorItems).clone();
+                Deque<ChangeItem> clonedItems = (Deque) ((LinkedList) vectorItems).clone();
                 clonedItems.add(item);
 
                 split.add(new ChangeVector(clonedItems));

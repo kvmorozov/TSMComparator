@@ -71,7 +71,7 @@ public class Fonts {
      */
     public List<Font> getFonts() {
         if (fonts == null) {
-            fonts = new ArrayList<Font>();
+            fonts = new ArrayList<>();
         }
         return this.fonts;
     }

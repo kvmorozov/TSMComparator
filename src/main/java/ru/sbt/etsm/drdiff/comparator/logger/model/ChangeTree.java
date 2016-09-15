@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 /**
  * Created by sbt-morozov-kv on 09.08.2016.
@@ -27,8 +28,7 @@ public class ChangeTree {
         Set<ChangeItem> leaves = new HashSet<>();
         root.collectLeaves(leaves);
 
-        for (ChangeItem leave : leaves)
-            result.add(leave.getVector());
+        result.addAll(leaves.stream().map(ChangeItem::getVector).collect(Collectors.toList()));
 
         return result;
     }
@@ -43,8 +43,7 @@ public class ChangeTree {
 
         List<ChangeVector> vectors = getBaseVectors();
 
-        for (ChangeVector vector : vectors)
-            reverseTree.addVector(vector);
+        vectors.forEach(reverseTree::addVector);
 
         return reverseTree;
     }

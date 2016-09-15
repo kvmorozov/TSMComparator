@@ -52,7 +52,7 @@ public class TsmFileLogger implements ILogger {
                 .replaceAll(PLACEHOLDER_TABS_N1, tabsN1)
                 .replaceAll(PLACEHOLDER_TABS_N2, tabsN2);
 
-        write(result.toString());
+        write(result);
 
         for (ChangeItem child : item.getChildItems())
             printItem(tabLevel + 1, child);
@@ -63,12 +63,12 @@ public class TsmFileLogger implements ILogger {
             printItem(1, tree.getRoot());
 
             if (printErrors) {
-                if (!tree.getErrors().isEmpty()) {
+                if (!ChangeTree.getErrors().isEmpty()) {
                     StringBuilder errorsStr = new StringBuilder()
                             .append(System.getProperty("line.separator"))
                             .append("Errors:");
 
-                    for (String error : tree.getErrors())
+                    for (String error : ChangeTree.getErrors())
                         errorsStr.append(System.getProperty("line.separator")).append("\t").append(error);
 
                     write(errorsStr.toString());

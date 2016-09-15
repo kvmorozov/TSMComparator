@@ -92,7 +92,7 @@ public class Criteria {
      */
     public List<Attrib> getAttribs() {
         if (attribs == null) {
-            attribs = new ArrayList<Attrib>();
+            attribs = new ArrayList<>();
         }
         return this.attribs;
     }

@@ -74,7 +74,7 @@ public class Table {
      */
     public List<Criteria> getCriterias() {
         if (criterias == null) {
-            criterias = new ArrayList<Criteria>();
+            criterias = new ArrayList<>();
         }
         return this.criterias;
     }

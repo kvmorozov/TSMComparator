@@ -59,7 +59,7 @@ public class TableRelationList {
      */
     public List<TableRelation> getTableRelations() {
         if (tableRelations == null) {
-            tableRelations = new ArrayList<TableRelation>();
+            tableRelations = new ArrayList<>();
         }
         return this.tableRelations;
     }

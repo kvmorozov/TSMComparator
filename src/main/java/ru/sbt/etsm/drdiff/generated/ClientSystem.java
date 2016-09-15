@@ -116,7 +116,7 @@ public class ClientSystem {
      */
     public List<LogicalDataSource> getLogicalDataSources() {
         if (logicalDataSources == null) {
-            logicalDataSources = new ArrayList<LogicalDataSource>();
+            logicalDataSources = new ArrayList<>();
         }
         return this.logicalDataSources;
     }

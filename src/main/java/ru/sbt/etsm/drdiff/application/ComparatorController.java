@@ -67,30 +67,26 @@ public class ComparatorController extends UI {
     private void createToolBar() {
         this.toolBar = new MenuBar();
 
-        this.toolBar.addItem("Сравнить", FontAwesome.APPLE, new MenuBar.Command() {
+        this.toolBar.addItem("Сравнить", FontAwesome.APPLE, (MenuBar.Command) selectedItem -> {
+            try {
+                progress.setVisible(true);
 
-            @Override
-            public void menuSelected(final MenuBar.MenuItem selectedItem) {
-                try {
-                    progress.setVisible(true);
+                DesignReport oldReport = JaxbHelper.unmarshal(DesignReport.class, JaxbHelper.prepareData(TEST_DATA_1, true), false);
+                DesignReport newReport = JaxbHelper.unmarshal(DesignReport.class, JaxbHelper.prepareData(TEST_DATA_2, true), false);
 
-                    DesignReport oldReport = JaxbHelper.unmarshal(DesignReport.class, JaxbHelper.prepareData(TEST_DATA_1, true), false);
-                    DesignReport newReport = JaxbHelper.unmarshal(DesignReport.class, JaxbHelper.prepareData(TEST_DATA_2, true), false);
+                ChangeTree changes = TsmComparator.compare(oldReport, newReport);
 
-                    ChangeTree changes = TsmComparator.compare(oldReport, newReport);
+                assert (changes != null);
 
-                    assert (changes != null);
-
-                    try (ILogger _logger = logger) {
-                        _logger.logReport(changes);
-                    } finally {
-                        progress.setVisible(false);
-                    }
-
-                    table.setContainerDataSource(new BeanItemContainer(ChangeEntry.class, getTableData()));
-                } catch (Exception ex) {
-                    ex.printStackTrace();
+                try (ILogger _logger = logger) {
+                    _logger.logReport(changes);
+                } finally {
+                    progress.setVisible(false);
                 }
+
+                table.setContainerDataSource(new BeanItemContainer(ChangeEntry.class, getTableData()));
+            } catch (Exception ex) {
+                ex.printStackTrace();
             }
         });
 

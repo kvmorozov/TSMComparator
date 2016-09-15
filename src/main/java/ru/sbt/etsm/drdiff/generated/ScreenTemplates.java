@@ -71,7 +71,7 @@ public class ScreenTemplates {
      */
     public List<ScreenTemplate> getScreenTemplates() {
         if (screenTemplates == null) {
-            screenTemplates = new ArrayList<ScreenTemplate>();
+            screenTemplates = new ArrayList<>();
         }
         return this.screenTemplates;
     }
