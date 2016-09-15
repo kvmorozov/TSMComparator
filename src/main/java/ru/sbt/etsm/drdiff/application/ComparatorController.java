@@ -56,7 +56,7 @@ public class ComparatorController extends UI {
 
         table = new Table();
         table.setContainerDataSource(new BeanItemContainer<>(ChangeEntry.class));
-        table.setVisibleColumns(new Object[]{"place", "change", "activator", "role", "type"});
+        table.setVisibleColumns("place", "change", "activator", "role", "type");
         table.setWidth("100%");
 
         VerticalLayout mainLayout = new VerticalLayout(toolBar, table);
