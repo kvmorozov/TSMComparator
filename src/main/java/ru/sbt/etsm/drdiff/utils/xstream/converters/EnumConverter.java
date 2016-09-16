@@ -72,12 +72,6 @@ public class EnumConverter extends ReflectionConverter
 	}
 
 	@Override
-	public void marshal(Object original, final HierarchicalStreamWriter writer,
-	                    final MarshallingContext context) {
-		super.marshal(original, writer, context);
-	}
-
-	@Override
 	public boolean canConvert(Class type) {
 		return _getter != null;
 	}
