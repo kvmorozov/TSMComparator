@@ -11,7 +11,7 @@ import static ru.sbt.etsm.drdiff.comparator.logger.model.ChangeItem.EMPTY_STR;
  */
 public class DefaultSerializer extends TsmSerializerBase {
 
-    private static ObjectMapper mapper = new ObjectMapper();
+    private static final ObjectMapper mapper = new ObjectMapper();
 
     @Override
     public String serialize(Object objToSerialize) {

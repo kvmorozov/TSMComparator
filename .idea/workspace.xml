@@ -2,10 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="219e664d-7d70-4000-a04a-1be4e4875e33" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/application/ComparatorController.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/application/ComparatorController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/CharacteristicComparator.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/CharacteristicComparator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/ConditionStatementComparator.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/ConditionStatementComparator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/RuleComparator.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/RuleComparator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/SkipFieldsComparator.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/SkipFieldsComparator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/TsmComparatorBase.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/TsmComparatorBase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/context/ReportContext.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/context/ReportContext.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/file/ExcelGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/file/ExcelGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/file/TemporaryFileDownloadResource.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/file/TemporaryFileDownloadResource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/file/TsmFileLogger.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/file/TsmFileLogger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/model/ChangeItem.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/model/ChangeItem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/model/ChangeTree.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/model/ChangeTree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/model/ChangeVector.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/model/ChangeVector.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/matchers/DefaultObjectMatcher.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/matchers/DefaultObjectMatcher.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/matchers/OccurenceMatcher.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/matchers/OccurenceMatcher.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/matchers/TsmMatcherBase.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/matchers/TsmMatcherBase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/serializers/DefaultSerializer.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/serializers/DefaultSerializer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/serializers/TsmSerializerBase.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/serializers/TsmSerializerBase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/jaxb/JaxbHelper.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/jaxb/JaxbHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/xstream/TsmMapper.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/xstream/TsmMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/xstream/TsmReflectionProvider.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/xstream/TsmReflectionProvider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/xstream/XmlConverter.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/xstream/XmlConverter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/xstream/converters/AllowDuplicatesConverter.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/xstream/converters/AllowDuplicatesConverter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/xstream/converters/SoapArrayConverter.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/xstream/converters/SoapArrayConverter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ru/sbt/etsm/drdiff/test/xml/XstreamUnmarshallTest.java" afterPath="$PROJECT_DIR$/src/test/java/ru/sbt/etsm/drdiff/test/xml/XstreamUnmarshallTest.java" />
     </list>
     <ignored path="DrDiff.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,61 +52,84 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CharacteristicCollectionComparator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/collections/CharacteristicCollectionComparator.java">
+      <file leaf-file-name="CollectionComparator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/collections/CollectionComparator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="169">
-              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+              <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ActionList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/generated/ActionList.java">
+      <file leaf-file-name="ReportContext.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/context/ReportContext.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="169">
-              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-              <folding />
+              <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+              <folding>
+                <element signature="e#6253#6254#0" expanded="true" />
+                <element signature="e#6334#6335#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TsmSerializerBase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/serializers/TsmSerializerBase.java">
+      <file leaf-file-name="TsmMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/xstream/TsmMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="17" column="68" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
+            <state relative-caret-position="136">
+              <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ComparatorController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/application/ComparatorController.java">
+      <file leaf-file-name="AllowDuplicatesConverter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/xstream/converters/AllowDuplicatesConverter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+            <state relative-caret-position="50">
+              <caret line="298" column="18" selection-start-line="298" selection-start-column="12" selection-end-line="298" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="generate.ant" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/ant/generate.ant">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChangeVector.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/model/ChangeVector.java">
+      <file leaf-file-name="ExcelGenerator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/file/ExcelGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="169">
-              <caret line="89" column="19" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
+              <caret line="47" column="40" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TsmComparatorBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/TsmComparatorBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConditionComparator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/ConditionComparator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TemporaryFileDownloadResource.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/file/TemporaryFileDownloadResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -93,7 +139,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/file/TsmFileLogger.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="169">
-              <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
+              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -102,29 +148,12 @@
       <file leaf-file-name="ChangeItem.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/model/ChangeItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="99" column="27" selection-start-line="99" selection-start-column="27" selection-end-line="99" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TsmTestBase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/sbt/etsm/drdiff/test/xml/TsmTestBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddRemoveComparator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/AddRemoveComparator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="288">
+              <caret line="110" column="0" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+              <folding>
+                <element signature="e#3358#3359#0" expanded="true" />
+                <element signature="e#3412#3413#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,7 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/OccurenceComparator.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/PrimitiveComparator.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/SimpleObjectComparator.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/collections/HeterogeneCollectionComparator.java" />
@@ -152,7 +180,6 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/collections/ConditionStatementCollectionComparator.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/collections/OrderedCollectionComparator.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/matchers/ConvertingMatcher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/context/ReportContext.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/matchers/TsmMatcherBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/TsmComparator.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/xstream/converters/SoapArrayConverter.java" />
@@ -169,10 +196,8 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/db/ChangeEntry.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/sbt/etsm/drdiff/test/xml/JaxbUnmarshallTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/file/DeletingFileInputStream.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/file/TemporaryFileDownloadResource.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/file/ExcelGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/collections/CollectionComparator.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/collections/MenuBarCollectionComparator.java" />
         <option value="$PROJECT_DIR$/.idea/vcs.xml" />
@@ -180,7 +205,6 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/db/ChangeEntryRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/ILogger.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/ConditionComparator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/TsmComparatorBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/CharacteristicComparator.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/ConditionStatementComparator.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/RuleComparator.java" />
@@ -188,11 +212,16 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/model/ChangeTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/collections/CharacteristicCollectionComparator.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/collections/OccurencesCollectionComparator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/xstream/converters/AllowDuplicatesConverter.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/model/ChangeVector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/application/ComparatorController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/file/TemporaryFileDownloadResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/file/TsmFileLogger.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/model/ChangeItem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/application/ComparatorController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/xstream/TsmMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/TsmComparatorBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/xstream/converters/AllowDuplicatesConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/file/ExcelGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/context/ReportContext.java" />
       </list>
     </option>
   </component>
@@ -309,32 +338,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drDiff" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drDiff" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -816,14 +819,7 @@
       <workItem from="1473927196738" duration="20000" />
       <workItem from="1473927241226" duration="77000" />
       <workItem from="1473940462493" duration="880000" />
-      <workItem from="1473941580281" duration="1445000" />
-    </task>
-    <task id="LOCAL-00020" summary="perf fix">
-      <created>1470984260371</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1470984260371</updated>
+      <workItem from="1473941580281" duration="4198000" />
     </task>
     <task id="LOCAL-00021" summary="screen lookup">
       <created>1471000769614</created>
@@ -1161,11 +1157,18 @@
       <option name="project" value="LOCAL" />
       <updated>1473942866962</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="code style issues">
+      <created>1473943038452</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1473943038452</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="299401000" />
+    <option name="totallyTimeSpent" value="302154000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1338,34 +1341,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/1.10.2.RELEASE/spring-data-jpa-1.10.2.RELEASE-sources.jar!/org/springframework/data/jpa/repository/JpaRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml/3.15-beta2/poi-ooxml-3.15-beta2.jar!/org/apache/poi/xssf/usermodel/XSSFSheet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="311" column="0" selection-start-line="311" selection-start-column="0" selection-end-line="311" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.15-beta2/poi-3.15-beta2-sources.jar!/org/apache/poi/ss/usermodel/CellStyle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="95" column="54" selection-start-line="95" selection-start-column="43" selection-end-line="95" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.15-beta2/poi-3.15-beta2-sources.jar!/org/apache/poi/ss/usermodel/BorderStyle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.17/snakeyaml-1.17-sources.jar!/org/yaml/snakeyaml/events/AliasEvent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1377,13 +1352,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1362">
           <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/file/ExcelGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1529,14 +1497,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/xstream/XmlConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/db/ChangeEntryRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1553,54 +1513,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/collections/CollectionComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/xstream/TsmMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/ConditionComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/TsmComparatorBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="51" column="25" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/file/TemporaryFileDownloadResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="19" column="74" selection-start-line="19" selection-start-column="74" selection-end-line="19" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/CharacteristicComparator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#348#349#0" expanded="false" />
+            <element signature="e#389#390#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1610,9 +1530,9 @@
         <state relative-caret-position="170">
           <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#356#357#0" expanded="false" />
+            <element signature="e#392#393#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1622,9 +1542,9 @@
         <state relative-caret-position="187">
           <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#438#439#0" expanded="false" />
+            <element signature="e#469#470#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1649,38 +1569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
           <caret line="64" column="39" selection-start-line="64" selection-start-column="39" selection-end-line="64" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/xstream/converters/AllowDuplicatesConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="346" column="21" selection-start-line="346" selection-start-column="21" selection-end-line="346" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/model/ChangeVector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="89" column="19" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/file/TsmFileLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/model/ChangeItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="99" column="27" selection-start-line="99" selection-start-column="27" selection-end-line="99" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -1725,19 +1613,145 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/application/ComparatorController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ant/generate.ant">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+        <state relative-caret-position="17">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ant/generate.ant">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/vaadin/vaadin-server/7.4.4/vaadin-server-7.4.4-sources.jar!/com/vaadin/server/Page.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        <state relative-caret-position="108">
+          <caret line="1146" column="29" selection-start-line="1146" selection-start-column="29" selection-end-line="1146" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/vaadin/vaadin-server/7.4.4/vaadin-server-7.4.4-sources.jar!/com/vaadin/ui/LegacyWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="211" column="17" selection-start-line="211" selection-start-column="17" selection-end-line="211" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/application/ComparatorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="98" column="32" selection-start-line="98" selection-start-column="32" selection-end-line="98" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/vaadin/vaadin-server/7.4.4/vaadin-server-7.4.4-sources.jar!/com/vaadin/ui/Link.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2207">
+          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/xstream/XmlConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/model/ChangeVector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="45" column="40" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/file/TemporaryFileDownloadResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/model/ChangeItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="110" column="0" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+          <folding>
+            <element signature="e#3358#3359#0" expanded="true" />
+            <element signature="e#3412#3413#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/collections/CollectionComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/ConditionComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/comparators/TsmComparatorBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/xstream/TsmMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/file/TsmFileLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/utils/xstream/converters/AllowDuplicatesConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="298" column="18" selection-start-line="298" selection-start-column="12" selection-end-line="298" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/logger/file/ExcelGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="47" column="40" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/etsm/drdiff/comparator/context/ReportContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+          <folding>
+            <element signature="e#6253#6254#0" expanded="true" />
+            <element signature="e#6334#6335#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

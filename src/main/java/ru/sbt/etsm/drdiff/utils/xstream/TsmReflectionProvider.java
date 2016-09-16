@@ -95,7 +95,7 @@ public class TsmReflectionProvider extends PureJavaReflectionProvider {
                 }
             } else
                 field.set(object, value);
-        } catch (Exception ex) {
+        } catch (Exception ignored) {
 
         }
     }

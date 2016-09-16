@@ -30,7 +30,7 @@ public class JaxbHelper {
     private static volatile Schema schema = null;
     private static final String[] SCHEMAS = {"xml/TSMSchema.xsd"};
 
-    protected static char sign_quote = '"';
+    protected static final char sign_quote = '"';
 
     private static final Map<String, JAXBContext> contextMap = new ConcurrentHashMap<>();
 

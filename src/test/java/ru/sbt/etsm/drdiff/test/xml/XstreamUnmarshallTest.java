@@ -13,7 +13,7 @@ import java.io.IOException;
 public class XstreamUnmarshallTest extends TsmTestBase {
 
     @Test
-    public void loadData() throws JAXBException, SAXException, IOException {
+    public void loadData() throws IOException {
         XmlConverter reportConverter = new XmlConverter("ru.sbt.etsm.drdiff.generated", null, true);
 
         checkData(reportConverter.deserialize(prepareData(TEST_DATA_1, false)));

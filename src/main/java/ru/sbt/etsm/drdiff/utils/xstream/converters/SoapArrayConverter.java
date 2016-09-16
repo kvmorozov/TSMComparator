@@ -14,7 +14,7 @@ import java.lang.reflect.Array;
  */
 public class SoapArrayConverter extends ArrayConverter
 {
-	private ReflectionProvider reflectionProvider;
+	private final ReflectionProvider reflectionProvider;
 
 	public SoapArrayConverter(Mapper mapper, ReflectionProvider reflectionProvider)
 	{

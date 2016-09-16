@@ -95,7 +95,7 @@ public class ComparatorController extends UI {
             if (file != null) {
                 TemporaryFileDownloadResource resource = null;
                 try {
-                    resource = new TemporaryFileDownloadResource(this, file.getName(), "application/vnd.ms-excel", file);
+                    resource = new TemporaryFileDownloadResource(file.getName(), "application/vnd.ms-excel", file);
                     getPage().open(resource, null, false);
                 } catch (FileNotFoundException e) {
                     e.printStackTrace();

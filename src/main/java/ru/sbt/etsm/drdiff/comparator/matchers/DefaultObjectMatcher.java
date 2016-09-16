@@ -14,7 +14,7 @@ import static ru.sbt.etsm.drdiff.utils.reflection.ReflectionUtils.isFieldExists;
  */
 public class DefaultObjectMatcher extends TsmMatcherBase {
 
-    protected Map<Class, Field> idFieldsMap = new HashMap<>();
+    protected final Map<Class, Field> idFieldsMap = new HashMap<>();
 
     public Object getKeyValueInternal(Object obj, List contextCollection) {
         try {

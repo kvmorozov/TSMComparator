@@ -1,6 +1,5 @@
 package ru.sbt.etsm.drdiff.comparator.logger.model;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import ru.sbt.etsm.drdiff.comparator.serializers.TsmSerializerBase;
 
 import java.util.HashSet;
@@ -28,7 +27,7 @@ public class ChangeItem {
         REMOVE("removed"),
         CHANGE("changed");
 
-        String desc;
+        final String desc;
 
         ChangeItemType(String desc) {
             this.desc = desc;
@@ -40,7 +39,7 @@ public class ChangeItem {
     }
 
     private Descriptor descObject;
-    private List<ChangeItem> childItems = new CopyOnWriteArrayList<>();
+    private final List<ChangeItem> childItems = new CopyOnWriteArrayList<>();
     private ChangeItemType changeItemType;
     private String oldObjDesc, newObjDesc;
 
@@ -96,28 +95,24 @@ public class ChangeItem {
 
     public String getText() {
         if (text == null)
-            try {
-                text = PLACEHOLDER_TABS_N +
-                        descObject.toString() +
-                        STR_SPACE +
-                        getChangeItemType().getDesc() +
-                        ":" + STR_SPACE +
-                        (getChildCount() == 0 && getChangeItemType() == ChangeItemType.CHANGE ?
-                                ("\n" + PLACEHOLDER_TABS_N1 + "Old value:\n" + PLACEHOLDER_TABS_N2) +
-                                        oldObjDesc +
-                                        "\n" + PLACEHOLDER_TABS_N1 + "New value:\n" + PLACEHOLDER_TABS_N2 +
-                                        newObjDesc : EMPTY_STR) +
-                        getDescIfTrue(getChangeItemType() == ChangeItemType.ADD, newObjDesc) +
-                        getDescIfTrue(getChangeItemType() == ChangeItemType.REMOVE, oldObjDesc) +
-                        System.getProperty("line.separator");
-            } catch (JsonProcessingException e) {
-                e.printStackTrace();
-            }
+            text = PLACEHOLDER_TABS_N +
+                    descObject.toString() +
+                    STR_SPACE +
+                    getChangeItemType().getDesc() +
+                    ":" + STR_SPACE +
+                    (getChildCount() == 0 && getChangeItemType() == ChangeItemType.CHANGE ?
+                            ("\n" + PLACEHOLDER_TABS_N1 + "Old value:\n" + PLACEHOLDER_TABS_N2) +
+                                    oldObjDesc +
+                                    "\n" + PLACEHOLDER_TABS_N1 + "New value:\n" + PLACEHOLDER_TABS_N2 +
+                                    newObjDesc : EMPTY_STR) +
+                    getDescIfTrue(getChangeItemType() == ChangeItemType.ADD, newObjDesc) +
+                    getDescIfTrue(getChangeItemType() == ChangeItemType.REMOVE, oldObjDesc) +
+                    System.getProperty("line.separator");
 
         return text;
     }
 
-    private String getDescIfTrue(boolean condition, String objDesc) throws JsonProcessingException {
+    private String getDescIfTrue(boolean condition, String objDesc) {
         return condition ? objDesc : EMPTY_STR;
     }
 

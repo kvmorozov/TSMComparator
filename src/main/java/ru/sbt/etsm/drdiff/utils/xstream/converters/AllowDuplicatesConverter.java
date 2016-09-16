@@ -22,7 +22,7 @@ import java.util.*;
  */
 public class AllowDuplicatesConverter extends ReflectionConverter {
     private transient ReflectionProvider pureJavaReflectionProvider;
-    private Class realType;
+    private final Class realType;
 
     public AllowDuplicatesConverter(Mapper mapper, ReflectionProvider reflectionProvider, Class type, Class realType) {
         super(mapper, reflectionProvider, type);
@@ -108,11 +108,11 @@ public class AllowDuplicatesConverter extends ReflectionConverter {
                         } catch (CannotResolveClassException e) {
                             // type stays null ...
                         }
-                        if (type == null || (type != null && implicitFieldName == null)) {
+                        if (type == null || implicitFieldName == null) {
                             // either not a type or element is a type alias, but does not
                             // belong to an implicit field
                             handleUnknownField(
-                                    explicitDeclaringClass, fieldName, resultType, originalNodeName);
+                                    explicitDeclaringClass, resultType, originalNodeName);
 
                             // element is unknown in declaring class, ignore it now
                             type = null;
@@ -235,8 +235,7 @@ public class AllowDuplicatesConverter extends ReflectionConverter {
         return definedIn == null ? null : mapper.realClass(definedIn);
     }
 
-    private void handleUnknownField(Class classDefiningField, String fieldName,
-                                    Class resultType, String originalNodeName) {
+    private void handleUnknownField(Class classDefiningField, Class resultType, String originalNodeName) {
         if (classDefiningField == null) {
             for (Class cls = resultType; cls != null; cls = cls.getSuperclass()) {
                 if (!mapper.shouldSerializeMember(cls, originalNodeName)) {

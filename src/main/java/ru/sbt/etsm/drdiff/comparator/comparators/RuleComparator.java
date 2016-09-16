@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
  */
 public class RuleComparator extends SkipFieldsComparator {
 
-    private static Pattern pattern = Pattern.compile("[$]([0-9])+,([0-9])+[$]");
+    private static final Pattern pattern = Pattern.compile("[$]([0-9])+,([0-9])+[$]");
 
     public RuleComparator() {
         super(RULE_SET);

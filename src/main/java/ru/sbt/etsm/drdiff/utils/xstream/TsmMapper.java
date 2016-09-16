@@ -21,8 +21,8 @@ import java.util.Map;
  * Created by sbt-morozov-kv on 21.10.2015.
  */
 public class TsmMapper extends CachingMapper {
-    private static Map<Class, String> nodeNamesMap = new HashMap<>();
-    private static Set<Class> allowedDuplicatesClasses = new HashSet<>();
+    private static final Map<Class, String> nodeNamesMap = new HashMap<>();
+    private static final Set<Class> allowedDuplicatesClasses = new HashSet<>();
 
     private static ReflectionProvider _reflectionProvider;
 
@@ -149,7 +149,7 @@ public class TsmMapper extends CachingMapper {
 
             if (type.isArray())
                 return new SoapArrayConverter(this, _reflectionProvider);
-        } catch (Exception ex) {
+        } catch (Exception ignored) {
 
         }
 

@@ -15,7 +15,7 @@ import static ru.sbt.etsm.drdiff.comparator.logger.model.ChangeTree.registerErro
  */
 public class OccurenceMatcher extends TsmMatcherBase {
 
-    private boolean isOrdered;
+    private final boolean isOrdered;
 
     public OccurenceMatcher() {
         this(true);

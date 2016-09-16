@@ -11,9 +11,9 @@ import java.util.stream.Collectors;
  */
 public class ChangeTree {
 
-    private static Set<String> errors = new HashSet<>();
+    private static final Set<String> errors = new HashSet<>();
 
-    private ChangeItem root;
+    private final ChangeItem root;
 
     public ChangeTree(ChangeItem root) {
         this.root = root;

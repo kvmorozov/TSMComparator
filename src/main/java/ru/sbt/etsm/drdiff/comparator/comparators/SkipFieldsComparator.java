@@ -10,7 +10,7 @@ import java.util.Set;
  */
 public class SkipFieldsComparator extends DefaultObjectComparator {
 
-    protected Set<String> skipFields;
+    protected final Set<String> skipFields;
 
     public SkipFieldsComparator(Set<String> skipFields) {
         this.skipFields = skipFields;

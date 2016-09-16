@@ -15,7 +15,7 @@ public class ConditionStatementComparator extends SkipFieldsComparator {
     }
 
     private class FakeIdHolder {
-        String id;
+        final String id;
 
         FakeIdHolder(String id) {
             this.id = id;

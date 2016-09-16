@@ -14,12 +14,12 @@ import static ru.sbt.etsm.drdiff.comparator.logger.model.ChangeTree.registerErro
  */
 public class ReportContext {
 
-    private DesignReport report;
-    private boolean isNew;
-    private Map<String, Table> tablesMap = new HashMap<>();
-    private Map<String, Map<String, Criteria>> criteriaMap = new HashMap<>();
-    private Map<String, List> refMap = new HashMap<>();
-    private Map<Object, Object> cachedReferences = new HashMap<>();
+    private final DesignReport report;
+    private final boolean isNew;
+    private final Map<String, Table> tablesMap = new HashMap<>();
+    private final Map<String, Map<String, Criteria>> criteriaMap = new HashMap<>();
+    private final Map<String, List> refMap = new HashMap<>();
+    private final Map<Object, Object> cachedReferences = new HashMap<>();
 
     private static final Set<String> REFERENCES_OBJECTS = new HashSet<>(Arrays.asList("StoredProcedure", "Font", "Status", "Rule", "Sequence", "Action",
             "Map", "Screen", "ScreenTemplate", "QueryScreen", "Condition", "VisibleCondition", "ConditionToProcess", "ConditionalExpression"));
@@ -50,7 +50,7 @@ public class ReportContext {
         if (codes.length != 2)
             throw new AssertionError();
 
-        String tableName = codes[0];
+        String tableName;
         String criteriaName = codes[1];
 
         if (tablesMap.containsKey(codes[0])) {
@@ -159,17 +159,11 @@ public class ReportContext {
     }
 
     public static boolean isReference(Object ref) {
-        if (ref == null)
-            return false;
-
-        return isReference(ref.getClass().getSimpleName());
+        return ref != null && isReference(ref.getClass().getSimpleName());
     }
 
     public static boolean isReference(String refClassName) {
-        if (refClassName == null)
-            return false;
-
-        return REFERENCES_OBJECTS.contains(refClassName);
+        return refClassName != null && REFERENCES_OBJECTS.contains(refClassName);
     }
 
     public boolean isNew() {

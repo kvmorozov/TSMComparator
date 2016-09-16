@@ -16,7 +16,7 @@ import java.util.List;
  */
 public class ExcelGenerator {
 
-    private List<ChangeEntry> entries;
+    private final List<ChangeEntry> entries;
     private XSSFWorkbook workbook;
 
     private CellStyle cellStyle;
@@ -45,7 +45,7 @@ public class ExcelGenerator {
     }
 
     private void mergeCellsInColumns(Sheet sheet, int colNum) {
-        String prevValue = "", currValue = "";
+        String prevValue = "", currValue;
         int startBlock = 0;
 
         for (int index = 0; index < entries.size(); index++) {

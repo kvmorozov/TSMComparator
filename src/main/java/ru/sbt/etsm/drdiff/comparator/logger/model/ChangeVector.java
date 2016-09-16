@@ -13,9 +13,9 @@ import static ru.sbt.etsm.drdiff.comparator.logger.file.TsmFileLogger.*;
  */
 public class ChangeVector {
 
-    private static Pattern pattern = Pattern.compile("\\[(.*?)\\]");
+    private static final Pattern pattern = Pattern.compile("\\[(.*?)\\]");
 
-    private Deque<ChangeItem> vectorItems;
+    private final Deque<ChangeItem> vectorItems;
 
     public ChangeVector() {
         vectorItems = new LinkedList<>();

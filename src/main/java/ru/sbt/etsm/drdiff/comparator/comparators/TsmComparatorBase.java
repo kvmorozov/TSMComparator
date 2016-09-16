@@ -18,7 +18,7 @@ public abstract class TsmComparatorBase {
 
     private static final ChangeItem NULL_OBJECT = ChangeItem.NULL_CHANGE;
 
-    private static Map<Object, Map<Object, ChangeItem>> compareCache = new HashMap<>();
+    private static final Map<Object, Map<Object, ChangeItem>> compareCache = new HashMap<>();
 
     protected Object oldObject, newObject;
     protected Descriptor descriptor;
@@ -56,8 +56,6 @@ public abstract class TsmComparatorBase {
             comparator = new QueryScreenComparator();
         else if (oldObject instanceof DesignReport)
             comparator = new MainComparator();
-        else if (oldObject instanceof Condition)
-            comparator = new SkipFieldsComparator(NAME_ID_SET);
         else if (oldObject instanceof ConditionStatement)
             comparator = new ConditionStatementComparator();
         else if (oldObject instanceof Occurence)

@@ -20,10 +20,10 @@ public abstract class TsmMatcherBase {
     private static final Object NULL_OBJECT = new Object();
 
     protected ReportContext context;
-    private Map<Object, List<Object>> collectionsMap = new HashMap<>();
+    private final Map<Object, List<Object>> collectionsMap = new HashMap<>();
     protected List originalCollection;
     protected List ownCollection;
-    private Map<Object, Object> keysMap = new HashMap<>();
+    private final Map<Object, Object> keysMap = new HashMap<>();
 
     public Object getMatchedObject(Object objectToMatch) {
         Object keyValue = getKeyValue(objectToMatch, ownCollection);

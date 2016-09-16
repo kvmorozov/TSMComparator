@@ -17,7 +17,7 @@ import java.nio.file.Paths;
  */
 public class XmlConverter {
 
-    private XStream xStream;
+    private final XStream xStream;
 
     public XmlConverter(String packageName, String postfix, boolean isJaxb) {
         ClassLoader classloader = Thread.currentThread().getContextClassLoader();
@@ -56,7 +56,7 @@ public class XmlConverter {
                         }
                     }
                 });
-            } catch (Exception ex) {
+            } catch (Exception ignored) {
 
             }
         }

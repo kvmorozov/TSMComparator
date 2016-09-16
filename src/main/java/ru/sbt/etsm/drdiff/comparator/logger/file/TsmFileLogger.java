@@ -1,6 +1,5 @@
 package ru.sbt.etsm.drdiff.comparator.logger.file;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import ru.sbt.etsm.drdiff.comparator.logger.ILogger;
 import ru.sbt.etsm.drdiff.comparator.logger.model.ChangeItem;
 import ru.sbt.etsm.drdiff.comparator.logger.model.ChangeTree;
@@ -42,7 +41,7 @@ public class TsmFileLogger implements ILogger {
         }
     }
 
-    public void printItem(int tabLevel, ChangeItem item) throws JsonProcessingException {
+    public void printItem(int tabLevel, ChangeItem item) {
         String tabs = new String(new char[tabLevel]).replace("\0", "\t");
         String tabsN1 = tabs + "\t";
         String tabsN2 = tabsN1 + "\t";
@@ -59,24 +58,21 @@ public class TsmFileLogger implements ILogger {
     }
 
     private void printTree(ChangeTree tree, boolean printErrors) {
-        try {
-            printItem(1, tree.getRoot());
+        printItem(1, tree.getRoot());
 
-            if (printErrors) {
-                if (!ChangeTree.getErrors().isEmpty()) {
-                    StringBuilder errorsStr = new StringBuilder()
-                            .append(System.getProperty("line.separator"))
-                            .append("Errors:");
+        if (printErrors) {
+            if (!ChangeTree.getErrors().isEmpty()) {
+                StringBuilder errorsStr = new StringBuilder()
+                        .append(System.getProperty("line.separator"))
+                        .append("Errors:");
 
-                    for (String error : ChangeTree.getErrors())
-                        errorsStr.append(System.getProperty("line.separator")).append("\t").append(error);
+                for (String error : ChangeTree.getErrors())
+                    errorsStr.append(System.getProperty("line.separator")).append("\t").append(error);
 
-                    write(errorsStr.toString());
-                }
-
-                write("\n***************************************\n");
+                write(errorsStr.toString());
             }
-        } catch (JsonProcessingException e) {
+
+            write("\n***************************************\n");
         }
     }
 

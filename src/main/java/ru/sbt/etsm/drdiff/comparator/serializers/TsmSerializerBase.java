@@ -20,7 +20,7 @@ public abstract class TsmSerializerBase {
     private static final TsmSerializerBase OCCURENCE_SERIALIZER = new OccurenceSerializer();
     private static final TsmSerializerBase CHARACTERISTIC_SERIALIZER = new CharacteristicSerializer();
 
-    public static String FIELDS_DELIM = "/";
+    public static final String FIELDS_DELIM = "/";
 
     public static TsmSerializerBase getSerializer(Object obj) {
         TsmSerializerBase serializer;

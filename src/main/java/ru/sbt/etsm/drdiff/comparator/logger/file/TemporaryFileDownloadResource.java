@@ -2,7 +2,6 @@ package ru.sbt.etsm.drdiff.comparator.logger.file;
 
 import com.vaadin.server.DownloadStream;
 import com.vaadin.server.StreamResource;
-import com.vaadin.ui.UI;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -17,7 +16,7 @@ public class TemporaryFileDownloadResource extends StreamResource {
     private final String filename;
     private final String contentType;
 
-    public TemporaryFileDownloadResource(UI application, String fileName, String contentType, File tempFile) throws FileNotFoundException {
+    public TemporaryFileDownloadResource(String fileName, String contentType, File tempFile) throws FileNotFoundException {
         super(new TemporaryFileDownloadResource.FileStreamResource(tempFile), fileName);
         this.filename = fileName;
         this.contentType = contentType;
