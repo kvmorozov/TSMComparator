@@ -1,10 +1,8 @@
 package ru.sbt.etsm.drdiff.test.xml;
 
 import org.junit.Test;
-import org.xml.sax.SAXException;
 import ru.sbt.etsm.drdiff.utils.xstream.XmlConverter;
 
-import javax.xml.bind.JAXBException;
 import java.io.IOException;
 
 /**
