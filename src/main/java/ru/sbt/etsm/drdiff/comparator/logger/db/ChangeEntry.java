@@ -1,5 +1,6 @@
 package ru.sbt.etsm.drdiff.comparator.logger.db;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -16,6 +17,8 @@ public class ChangeEntry {
     private Long id;
 
     private String place;
+
+    @Column(length = 4000)
     private String change;
     private String activator;
     private String role;

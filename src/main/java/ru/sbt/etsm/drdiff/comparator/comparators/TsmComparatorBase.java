@@ -23,7 +23,9 @@ public abstract class TsmComparatorBase {
     protected Object oldObject, newObject;
     protected Descriptor descriptor;
 
-    public static final Set<String> NAME_ID_SET = new HashSet<>(Arrays.asList("name", "id"));
+    public static final Set<String> ID_SET = new HashSet<>(Arrays.asList("id"));
+    public static final Set<String> ELEMENT_NB_SET = new HashSet<>(Arrays.asList("elementNb"));
+    public static final Set<String> SCREEN_SET = new HashSet<>(Arrays.asList("id", "top", "left", "right", "bottom"));
     public static final Set<String> CHARACTERISTIC_SET = new HashSet<>(Arrays.asList("appearance", "options", "tabOrder", "title", "id", "caption"));
     public static final Set<String> RULE_SET = new HashSet<>(Arrays.asList("ruleDescription", "id", "name", "comment"));
     public static final Set<String> COND_STAT_SET = new HashSet<>(Arrays.asList("expressionDescription", "conditionDescription", "comment"));
@@ -64,6 +66,12 @@ public abstract class TsmComparatorBase {
             comparator = new CharacteristicComparator();
         else if (oldObject instanceof Option)
             comparator = new SimpleObjectComparator();
+        else if (oldObject instanceof Screen)
+            comparator = new SkipFieldsComparator(SCREEN_SET);
+        else if (oldObject instanceof Action)
+            comparator = new SkipFieldsComparator(ID_SET);
+        else if (oldObject instanceof ActionList)
+            comparator = new SkipFieldsComparator(ELEMENT_NB_SET);
         else
             comparator = new DefaultObjectComparator();
 

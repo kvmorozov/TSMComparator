@@ -6,10 +6,18 @@ import ru.sbt.etsm.drdiff.comparator.logger.model.Descriptor;
 import ru.sbt.etsm.drdiff.comparator.matchers.OccurenceMatcher;
 import ru.sbt.etsm.drdiff.generated.Occurence;
 
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
+
 /**
  * Created by SBT-Morozov-KV on 16.08.2016.
  */
-public class OccurenceComparator extends DefaultObjectComparator {
+public class OccurenceComparator extends SkipFieldsComparator {
+
+    public OccurenceComparator() {
+        super(ID_SET);
+    }
 
     @Override
     protected ChangeItem compare(Descriptor descObject) {
