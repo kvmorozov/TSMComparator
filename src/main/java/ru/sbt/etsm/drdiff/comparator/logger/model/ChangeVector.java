@@ -80,7 +80,11 @@ public class ChangeVector {
         result.setPlace(place);
 
         result.setRole(findFirst("MenuBar"));
-        result.setChange(vectorItems.getLast().getText().replace(PLACEHOLDER_TABS_N, ""));
+        result.setChange(vectorItems.getLast().getText()
+                .replace("/null", "")
+                .replace(PLACEHOLDER_TABS_N, "")
+                .replace(PLACEHOLDER_TABS_N1, "")
+                .replace(PLACEHOLDER_TABS_N2, ""));
 
         return result;
     }
