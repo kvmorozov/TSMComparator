@@ -67,9 +67,9 @@ public class CollectionComparator extends TsmComparatorBase {
         if (oldCollection.size() == 0 && newCollection.size() == 0)
             return null;
         else if (oldCollection.size() == 0)
-            return new ChangeItem(new Descriptor(COLL_STRING), null, newCollection);
+            return new ChangeItem(new Descriptor(descObject, COLL_STRING), null, newCollection);
         else if (newCollection.size() == 0)
-            return new ChangeItem(new Descriptor(COLL_STRING), oldCollection, null);
+            return new ChangeItem(new Descriptor(descObject, COLL_STRING), oldCollection, null);
 
         elemClass = oldCollection.get(0).getClass();
 
@@ -118,12 +118,12 @@ public class CollectionComparator extends TsmComparatorBase {
             if (pair.getKey() == null && pair.getValue() == null)
                 continue;
             else if (pair.getKey() == null)
-                result.addChild(new ChangeItem(new Descriptor(ITEM_STRING), null, pair.getValue()));
+                result.addChild(new ChangeItem(new Descriptor(descObject, ITEM_STRING), null, pair.getValue()));
             else if (pair.getValue() == null)
-                result.addChild(new ChangeItem(new Descriptor(ITEM_STRING), pair.getKey(), null));
+                result.addChild(new ChangeItem(new Descriptor(descObject, ITEM_STRING), pair.getKey(), null));
             else {
                 ChangeItem change = compare(getComparator(pair.getKey(), pair.getValue()),
-                        new Descriptor(elemClass.getSimpleName() +
+                        new Descriptor(descObject, elemClass.getSimpleName() +
                                 " [" +
                                 TsmSerializerBase.getSerializer(pair.getKey()).getDescription(pair.getKey()) +
                                 "/" +

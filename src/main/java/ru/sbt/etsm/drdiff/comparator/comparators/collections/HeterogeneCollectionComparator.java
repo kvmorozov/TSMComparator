@@ -18,9 +18,9 @@ public class HeterogeneCollectionComparator extends CollectionComparator {
         if (oldCollection.size() == 0 && newCollection.size() == 0)
             return null;
         else if (oldCollection.size() == 0)
-            return new ChangeItem(new Descriptor(COLL_STRING), null, newCollection);
+            return new ChangeItem(new Descriptor(descObject, COLL_STRING), null, newCollection);
         else if (newCollection.size() == 0)
-            return new ChangeItem(new Descriptor(COLL_STRING), oldCollection, null);
+            return new ChangeItem(new Descriptor(descObject, COLL_STRING), oldCollection, null);
 
         ChangeItem result = new ChangeItem(descObject, oldObject, newObject);
 
@@ -31,7 +31,7 @@ public class HeterogeneCollectionComparator extends CollectionComparator {
             String elemClass = entry.getKey();
 
             List newList = newSplittedCollection.containsKey(elemClass) ? newSplittedCollection.get(elemClass) : null;
-            ChangeItem change = compare(getComparator(entry.getValue(), newList), new Descriptor(elemClass));
+            ChangeItem change = compare(getComparator(entry.getValue(), newList), new Descriptor(descObject, elemClass));
             if (change != null)
                 result.addChild(change);
         }
@@ -39,7 +39,7 @@ public class HeterogeneCollectionComparator extends CollectionComparator {
         for (Map.Entry<String, List> entry : newSplittedCollection.entrySet()) {
             String elemClass = entry.getKey();
             if (!oldSplittedCollection.containsKey(elemClass))
-                result.addChild(new ChangeItem(new Descriptor(elemClass), null, entry.getValue()));
+                result.addChild(new ChangeItem(new Descriptor(descObject, elemClass), null, entry.getValue()));
         }
 
         return result.getChildCount() == 0 ? null : result;

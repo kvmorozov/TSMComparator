@@ -38,7 +38,7 @@ public class ChangeTree {
     }
 
     public ChangeTree reverseTree() {
-        ChangeTree reverseTree = new ChangeTree(new ChangeItem(new Descriptor("Changes")));
+        ChangeTree reverseTree = new ChangeTree(new ChangeItem(Descriptor.CHANGES));
         root.setParent(null);
 
         List<ChangeVector> vectors = getBaseVectors();

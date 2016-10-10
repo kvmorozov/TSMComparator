@@ -9,18 +9,32 @@ public class Descriptor {
 
     private Field field;
     private String description, keyValue, prefix;
+    private Descriptor parentDesc;
 
-    public Descriptor(Field field, String keyValue) {
+    public static final Descriptor MENUS = new Descriptor("menus");
+    public static final Descriptor CHANGES = new Descriptor("Changes");
+    public static final Descriptor ROOT = new Descriptor("root");
+
+    public Descriptor(Descriptor parentDesc, Field field, String keyValue) {
         this.field = field;
-        this.keyValue = keyValue;
+        this.keyValue = isEmpty(keyValue)
+                ? isEmpty(parentDesc.keyValue) ? parentDesc.getDescription() : parentDesc.keyValue
+                : keyValue;
+        this.parentDesc = parentDesc;
     }
 
-    public Descriptor(Field field) {
-        this(field, "");
+    public Descriptor(Descriptor parentDesc, Field field) {
+        this(parentDesc, field, "");
     }
 
-    public Descriptor(String description) {
+    public Descriptor(Descriptor parentDesc, String description) {
         this.description = description;
+        this.keyValue = isEmpty(parentDesc.keyValue) ? parentDesc.getDescription() : parentDesc.keyValue;
+    }
+
+    private Descriptor(String description) {
+        this.description = description;
+        this.keyValue = "";
     }
 
     @Override
@@ -39,5 +53,9 @@ public class Descriptor {
     public String getDescription() {
         return (prefix == null || prefix.isEmpty() ? ChangeItem.EMPTY_STR : prefix) +
                 (description == null || description.isEmpty() ? ChangeItem.EMPTY_STR : description);
+    }
+
+    private boolean isEmpty(String str) {
+        return str == null || str.isEmpty() || str.equals("/null");
     }
 }

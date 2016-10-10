@@ -23,7 +23,7 @@ public class TsmComparator {
         INSTANCE.oldReportContext = new ReportContext(oldReport, false);
         INSTANCE.newReportContext = new ReportContext(newReport, true);
 
-        return new ChangeTree(TsmComparatorBase.compare(getComparator(oldReport, newReport), new Descriptor("root")));
+        return new ChangeTree(TsmComparatorBase.compare(getComparator(oldReport, newReport), Descriptor.ROOT));
     }
 
     public static ReportContext getOldReportContext() {

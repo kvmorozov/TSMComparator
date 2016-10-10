@@ -12,11 +12,10 @@ import javax.xml.transform.Source;
 import javax.xml.transform.stream.StreamSource;
 import javax.xml.validation.Schema;
 import javax.xml.validation.SchemaFactory;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.StringReader;
-import java.io.StringWriter;
+import java.io.*;
 import java.nio.charset.Charset;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Map;
@@ -125,8 +124,26 @@ public class JaxbHelper {
         return writer.toString();
     }
 
-    public static String prepareData(String resource, boolean normalizeXml) throws IOException {
+    public static String prepareDataFromResource(String resource, boolean normalizeXml) throws IOException {
         String resourceString = Resources.toString(Resources.getResource(resource), Charset.forName("UTF-8"));
+
+        return normalizeXml ?
+                resourceString
+                        .replaceAll("<Statuses", "<statuses").replaceAll("</Statuses", "</statuses")
+                        .replaceAll("<Sequence", "<sequence").replaceAll("</Sequence", "</sequence")
+                        .replaceAll("<Status", "<status").replaceAll("</Status", "</status")
+                        .replaceAll("<Query_screen", "<Query_Screen").replaceAll("</Query_screen", "</Query_Screen")
+                        .replaceAll("<status_Flow", "<Status_Flow").replaceAll("</status_Flow", "</Status_Flow")
+                        .replaceAll(" Type=", " type=")
+                        .replaceAll(" comment=" + sign_quote + sign_quote, "")
+                        .replaceAll(" comment=", " Comment=")
+                        .replaceAll("<Action", "<action").replaceAll("</Action", "</action")
+                        .replaceAll("<action_List", "<Action_List").replaceAll("</action_List", "</Action_List")
+                : resourceString;
+    }
+
+    public static String prepareDataFromFile(String inputFilePath, boolean normalizeXml) throws IOException {
+        String resourceString = new String(Files.readAllBytes(Paths.get(inputFilePath)), Charset.forName("UTF-8"));
 
         return normalizeXml ?
                 resourceString

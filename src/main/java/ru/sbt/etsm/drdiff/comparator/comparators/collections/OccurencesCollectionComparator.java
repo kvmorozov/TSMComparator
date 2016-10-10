@@ -19,16 +19,16 @@ public class OccurencesCollectionComparator extends CollectionComparator {
         if (oldCollection.size() == 0 && newCollection.size() == 0)
             return null;
         else if (oldCollection.size() == 0)
-            return new ChangeItem(new Descriptor(COLL_STRING), null, newCollection);
+            return new ChangeItem(new Descriptor(descObject, COLL_STRING), null, newCollection);
         else if (newCollection.size() == 0)
-            return new ChangeItem(new Descriptor(COLL_STRING), oldCollection, null);
+            return new ChangeItem(new Descriptor(descObject, COLL_STRING), oldCollection, null);
 
         ChangeItem result = new ChangeItem(descObject, oldObject, newObject);
 
         for (int index = 0; index < oldCollection.size(); index++) {
             Occurence oldItem = (Occurence) oldCollection.get(index);
             if (newCollection.size() <= index)
-                return new ChangeItem(new Descriptor(ITEM_STRING), oldItem, null);
+                return new ChangeItem(new Descriptor(descObject, ITEM_STRING), oldItem, null);
             else {
                 Object newItem = newCollection.get(index);
 
@@ -36,7 +36,7 @@ public class OccurencesCollectionComparator extends CollectionComparator {
                 if (oldItemResolved == null)
                     oldItemResolved = oldItem;
 
-                ChangeItem change = compare(getComparator(oldItem, newItem), new Descriptor(oldItemResolved.getClass().getSimpleName() +
+                ChangeItem change = compare(getComparator(oldItem, newItem), new Descriptor(descObject, oldItemResolved.getClass().getSimpleName() +
                         " [[" +
                         TsmSerializerBase.getSerializer(oldItemResolved).getDescription(oldItemResolved) +
                         "]/" +
@@ -51,7 +51,7 @@ public class OccurencesCollectionComparator extends CollectionComparator {
         }
 
         if (result.getChildCount() == 0 && newCollection.size() > oldCollection.size())
-            result.addChild(new ChangeItem(new Descriptor(ITEM_STRING), newCollection.get(oldCollection.size()), null));
+            result.addChild(new ChangeItem(new Descriptor(descObject, ITEM_STRING), newCollection.get(oldCollection.size()), null));
 
         if (LOOK_ALL_FLAG) {
             OccurenceMatcher newMatcher = (new OccurenceMatcher(false)).setCollectionToCheck(newCollection);

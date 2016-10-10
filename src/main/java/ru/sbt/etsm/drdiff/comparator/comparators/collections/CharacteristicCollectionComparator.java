@@ -20,9 +20,9 @@ public class CharacteristicCollectionComparator extends CollectionComparator {
         if (oldCollection.size() == 0 && newCollection.size() == 0)
             return null;
         else if (oldCollection.size() == 0)
-            return new ChangeItem(new Descriptor(COLL_STRING), null, newCollection);
+            return new ChangeItem(new Descriptor(descObject, COLL_STRING), null, newCollection);
         else if (newCollection.size() == 0)
-            return new ChangeItem(new Descriptor(COLL_STRING), oldCollection, null);
+            return new ChangeItem(new Descriptor(descObject, COLL_STRING), oldCollection, null);
 
         elemClass = oldCollection.get(0).getClass();
 

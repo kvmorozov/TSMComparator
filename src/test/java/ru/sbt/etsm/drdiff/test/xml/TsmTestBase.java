@@ -30,6 +30,6 @@ public class TsmTestBase {
     }
 
     protected String prepareData(String resource, boolean normalizeXml) throws IOException {
-        return JaxbHelper.prepareData(resource, normalizeXml);
+        return JaxbHelper.prepareDataFromResource(resource, normalizeXml);
     }
 }

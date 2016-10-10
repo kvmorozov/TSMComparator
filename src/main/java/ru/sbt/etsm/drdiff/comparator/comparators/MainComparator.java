@@ -14,6 +14,6 @@ public class MainComparator extends TsmComparatorBase {
         DesignReport oldReport = (DesignReport) oldObject;
         DesignReport newReport = (DesignReport) newObject;
 
-        return getComparator(oldReport.getDesignData().getMenus(), newReport.getDesignData().getMenus()).compare(new Descriptor("menus"));
+        return getComparator(oldReport.getDesignData().getMenus(), newReport.getDesignData().getMenus()).compare(Descriptor.MENUS);
     }
 }

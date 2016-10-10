@@ -84,7 +84,7 @@ public class ExcelGenerator {
 
     public File generateFile() {
         try {
-            File tempFile = File.createTempFile("tmp", ".xlsx");
+            File tempFile = File.createTempFile("report_xls", ".xlsx");
 
             try (FileOutputStream fileOut = new FileOutputStream(tempFile)) {
                 generate().write(fileOut);
@@ -99,8 +99,8 @@ public class ExcelGenerator {
     private CellStyle getCellStyle() {
         if (cellStyle == null) {
             cellStyle = workbook.createCellStyle();
-            cellStyle.setAlignment(CellStyle.ALIGN_CENTER);
-            cellStyle.setVerticalAlignment(CellStyle.VERTICAL_CENTER);
+            cellStyle.setAlignment(HorizontalAlignment.CENTER);
+            cellStyle.setVerticalAlignment(VerticalAlignment.CENTER);
 
             cellStyle.setBorderBottom(BorderStyle.THIN);
             cellStyle.setBottomBorderColor(IndexedColors.BLACK.getIndex());
