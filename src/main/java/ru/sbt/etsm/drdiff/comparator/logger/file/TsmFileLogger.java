@@ -25,7 +25,6 @@ public class TsmFileLogger implements ILogger {
             file.createNewFile();
 
         bw = new BufferedWriter(new FileWriter(file.getAbsoluteFile()));
-
     }
 
     @Override

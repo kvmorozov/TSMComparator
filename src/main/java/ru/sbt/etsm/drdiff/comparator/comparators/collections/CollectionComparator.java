@@ -123,12 +123,10 @@ public class CollectionComparator extends TsmComparatorBase {
                 result.addChild(new ChangeItem(new Descriptor(descObject, ITEM_STRING), pair.getKey(), null));
             else {
                 ChangeItem change = compare(getComparator(pair.getKey(), pair.getValue()),
-                        new Descriptor(descObject, elemClass.getSimpleName() +
-                                " [" +
+                        new Descriptor(descObject, elemClass.getSimpleName(),
                                 TsmSerializerBase.getSerializer(pair.getKey()).getDescription(pair.getKey()) +
-                                "/" +
-                                getKeyValue(pair.getKey(), oldCollection, TsmComparator.getOldReportContext()) +
-                                "]")
+                                        "/" +
+                                        getKeyValue(pair.getKey(), oldCollection, TsmComparator.getOldReportContext()))
                 );
                 if (change != null)
                     result.addChild(change);

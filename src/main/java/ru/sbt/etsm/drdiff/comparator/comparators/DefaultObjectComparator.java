@@ -28,16 +28,17 @@ public class DefaultObjectComparator extends TsmComparatorBase {
                     Object oldFieldObject = getFieldValue(field, oldObject, TsmComparator.getOldReportContext());
                     Object newFieldObject = getFieldValue(field, newObject, TsmComparator.getNewReportContext());
 
-                    ChangeItem changeField = getComparator(oldFieldObject, newFieldObject).compare(new Descriptor(descObject, field));
+                    String oldKeyValue = getDisplayKey(oldFieldObject, TsmComparator.getOldReportContext());
+                    String newKeyValue = getDisplayKey(newFieldObject, TsmComparator.getNewReportContext());
+                    String keyValue = oldKeyValue == null ?
+                            newKeyValue == null ? EMPTY_STR : newKeyValue
+                            : oldKeyValue;
+                    Descriptor thisDescriptor = new Descriptor(descObject, field.getName(), keyValue);
+
+                    ChangeItem changeField = getComparator(oldFieldObject, newFieldObject).compare(thisDescriptor);
 
                     if (changeField != null) {
-                        String oldKeyValue = getDisplayKey(oldFieldObject, TsmComparator.getOldReportContext());
-                        String newKeyValue = getDisplayKey(newFieldObject, TsmComparator.getNewReportContext());
-                        String keyValue = oldKeyValue == null ?
-                                newKeyValue == null ? EMPTY_STR : newKeyValue
-                                : oldKeyValue;
-
-                        changeField.setDescObject(new Descriptor(descObject, field, keyValue));
+                        changeField.setDescObject(thisDescriptor);
 
                         result.addChild(changeField);
                     }
