@@ -1,6 +1,7 @@
 package ru.sbt.etsm.drdiff.comparator.serializers;
 
 import com.google.common.primitives.Primitives;
+import ru.sbt.etsm.drdiff.comparator.context.ReportContext;
 import ru.sbt.etsm.drdiff.generated.Characteristic;
 import ru.sbt.etsm.drdiff.generated.Occurence;
 
@@ -44,7 +45,11 @@ public abstract class TsmSerializerBase {
         return serializer;
     }
 
-    public abstract String serialize(Object objToSerialize);
+    public abstract String serialize(Object objToSerialize, ReportContext reportContext);
+
+    public String serialize(Object objToSerialize) {
+        return serialize(objToSerialize, null);
+    }
 
     public String getDescription(Object objToSerialize) {
         if (objToSerialize == null)
