@@ -64,6 +64,7 @@ public class OccurenceMatcher extends TsmMatcherBase {
             case "Message":
             case "Status flow":
             case "Decision":
+            case "Generate Automatic Number":
                 registerError("Unknown Occurence type: " + occurenceType);
                 break;
             default:
